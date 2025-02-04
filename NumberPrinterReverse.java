@@ -13,3 +13,13 @@ public class NumberPrinterReverse{
         }
     }
 }
+/*
+   Reverse numbers are :: 5
+ Reverse numbers are :: 4
+ Reverse numbers are :: 3
+ Reverse numbers are :: 2
+ Reverse numbers are :: 1
+ Reverse numbers are :: 0
+
+ 
+ */

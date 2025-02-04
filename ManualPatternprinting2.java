@@ -3,3 +3,12 @@ public class ManualPatternprinting2 {
         System.out.println("    *\n   **\n  ***\n ****\n*****");
     }
 }
+
+/*/
+    *
+   **
+  ***
+ ****
+*****
+
+*/

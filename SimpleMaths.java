@@ -9,3 +9,9 @@ public class SimpleMaths {
     }
     
 }
+
+
+/*Addition :9
+Subtraction :3
+Multiplication :18
+Division :2.0 */

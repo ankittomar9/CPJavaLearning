@@ -6,6 +6,17 @@ public class Helloworld1 {
     
 }
 
+
+/*
+ * Output Format
+
+Print in a single line "Hello World !"
+Example Output
+Hello World !
+
+Note - You don't have to print "" in the output
+ * 
+ */
 /*
 {
     "editor.suggest.showWords": false,
@@ -22,5 +33,7 @@ public class Helloworld1 {
     "java.project.referencedLibraries": [
     ]
 } 
+
+
 
  */

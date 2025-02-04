@@ -13,3 +13,12 @@ public class NumberPrinter{
         }
     }
 }
+
+
+/*
+ This is number from input file :: 0
+ This is number from input file :: 1
+ This is number from input file :: 2
+ This is number from input file :: 3
+ This is number from input file :: 4
+ */

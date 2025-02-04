@@ -1,1 +1,1 @@
-45 500 5 1 5
+Total time taken for lagsna to be made : 31

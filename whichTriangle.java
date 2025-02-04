@@ -22,5 +22,7 @@ public class whichTriangle {
 }
 
 /*
- 
+ 3 4 3 isosceles
+ 7 4 5 Scalene
+ 7 7 7  Equilateral
  */

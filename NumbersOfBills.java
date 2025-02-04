@@ -13,3 +13,10 @@ public class NumbersOfBills {
     }
     
 }
+/*
+ 126.3
+5
+
+ The Bills are 
+ 25
+ */

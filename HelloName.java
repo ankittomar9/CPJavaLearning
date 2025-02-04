@@ -6,8 +6,16 @@ public class HelloName {
         Scanner scn=new Scanner(System.in);
         String string=scn.nextLine();
 
-        System.out.println("Hi " +string+ " Nice to meet you");
+        System.out.println("Hi " +string+ " Nice to meet you !!!");
 
     }
     
 }
+
+
+/*
+input : Ankur
+
+Hi Ankur Nice to meet you 
+
+ */

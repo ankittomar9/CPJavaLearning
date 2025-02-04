@@ -1,3 +1,4 @@
+package inputoutputdatatypesoperators;
 
 import java.util.*;
 public class XsaysHiToY {

@@ -1,8 +1,4 @@
-
 import java.util.Scanner;
-
-
-
 public class MaxOfThree {
 
     public static void main(String args[]){
@@ -22,3 +18,14 @@ public class MaxOfThree {
 
     }
 }
+
+/*
+ Maximum of three 6 7 8
+ 8
+
+ max of  1000 
+ 10000
+ 100000
+
+ 10000
+ */

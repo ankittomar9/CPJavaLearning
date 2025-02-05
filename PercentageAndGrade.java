@@ -26,6 +26,18 @@ public class PercentageAndGrade {
 
 
     }
-    
+
     
 }
+
+/*
+ 60 
+ 50
+ 70
+ 80
+ 90
+
+ Grade C 70.0
+
+
+ */

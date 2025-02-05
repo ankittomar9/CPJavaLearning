@@ -1,1 +1,1 @@
-Grade E 57.0
+Valid Triangle

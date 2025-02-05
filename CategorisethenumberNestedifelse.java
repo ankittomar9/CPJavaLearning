@@ -18,7 +18,7 @@ public class CategorisethenumberNestedifelse{
             else{
                 System.out.println("Default Invalid input");
             }
-            
+            scn.close();
     }
 
 }

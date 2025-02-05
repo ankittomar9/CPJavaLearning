@@ -14,3 +14,11 @@ public class PrintLastDigit {
     }
     
 }
+/*
+ *1018
+
+ 8
+ 
+ * 
+ * 
+ */

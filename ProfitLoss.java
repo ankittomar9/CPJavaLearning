@@ -26,6 +26,8 @@ Input
 120
 You Made a Profit : 20.0
 
-
+160
+120
+You Made a Loss : 40.0
 
  */

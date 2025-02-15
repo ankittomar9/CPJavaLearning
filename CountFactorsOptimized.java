@@ -9,7 +9,8 @@ public class CountFactorsOptimized {
         for(int i=1;i*i<=range;i++){  /// if i is a factor of N then
                                                     // n/i is also a factor of n  
             if(range%i==0){
-                if(i!=range/i){
+                if(i!=range/i){  // extra condition checking dupilcate counting of factors
+                    // for perfect square numbers
                     count+=2;
                 }
                 else count+=1;

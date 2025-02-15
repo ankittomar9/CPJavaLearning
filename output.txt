@@ -1,1 +1,1 @@
-factors are : 9
+Given number is prime number  : 

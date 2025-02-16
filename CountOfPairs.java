@@ -4,6 +4,7 @@ import java.util.Scanner;
 public class CountOfPairs {
 
     public static void main(String args[]){
+        //Brute Force idea two loops
         Scanner scn=new Scanner(System.in);
         int k=scn.nextInt();int count=0;
 
@@ -22,3 +23,4 @@ public class CountOfPairs {
     }
     
 }
+ 

@@ -1,1 +1,1 @@
-Total Pairs are : 3
+Total Pairs are : 2

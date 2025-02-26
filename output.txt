@@ -1,1 +1,1 @@
-[-3, 6, 2, 4, 5, 2, 8, -9, 3, 1]
+Pair of AG count optimized : 5

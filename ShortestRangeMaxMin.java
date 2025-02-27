@@ -1,8 +1,8 @@
+
 public class ShortestRangeMaxMin {
     public static void main(String args[]){
-        int arr[]={2,4,5,6,7,2,3};
-
-        {
+        int A[]={2,4,5,6,7,2,3};
+        
             int n = A.length;
             int minVal = A[0];
             int maxVal = A[0];
@@ -18,7 +18,7 @@ public class ShortestRangeMaxMin {
             
             // Edge case: All elements are equal
             if (minVal == maxVal) {
-                return 1;
+                System.out.println("All elements are equal");
             }
             
             int minPos = -1;
@@ -45,10 +45,12 @@ public class ShortestRangeMaxMin {
                         }
                     }
                 }
-            }Z
+            }
             
-            return minLength;
+            System.out.println(" Range is  : " +minLength); minLength;
 
+   
+        }
     }
 
 

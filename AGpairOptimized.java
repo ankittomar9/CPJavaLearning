@@ -6,6 +6,8 @@ public class AGpairOptimized {
        // String s2="acgdgag";
        // String s3="abegag";
 
+       //String s4='dbageagabcg'
+
         int countOFa=0;        int ans=0; // number of g that can form pair
 
         for(int i=0;i<s.length();i++){

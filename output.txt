@@ -1,1 +1,1 @@
- Range is  : 2
+Sum of SubArray is 16

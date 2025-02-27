@@ -13,13 +13,13 @@ public class FindSumofSubArray {
             sum+=arr[i];
         }
         System.out.println("Sum of SubArray is "+sum);
-
+            scn.close();
     }
     
 }
 
 /*
- 
-
+  int arr[]={4,8,6,2,4,3,1,12,15};
+Sum of SubArray is 16
 
  */

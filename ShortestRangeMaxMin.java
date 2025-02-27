@@ -47,7 +47,7 @@ public class ShortestRangeMaxMin {
                 }
             }
             
-            System.out.println(" Range is  : " +minLength); minLength;
+            System.out.println(" Range is  : " +minLength);
 
    
         }

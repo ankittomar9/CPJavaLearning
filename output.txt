@@ -1,1 +1,1 @@
-Leaders in array : 5
+ Range is  : 2

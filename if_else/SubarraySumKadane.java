@@ -2,7 +2,7 @@ package if_else;
 public class SubarraySumKadane {
 
     public static void main(String args[]){
-        int arr[] ={2,3,-8,7,-1,2,3};
+        int arr[] ={2,3,-8,7,-1,2,4};
         int n=arr.length; int result=arr[0];
         int maxEndingSum=arr[0];
 

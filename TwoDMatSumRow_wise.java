@@ -9,7 +9,7 @@ public class TwoDMatSumRow_wise {
                  sum=0;
                 for(int j=0;j<n;j++){
                 sum+=arr[i][j];
-              //  System.out.print(sum);
+              //  System.out.print(sum);git
                 }
                 System.out.print(sum);
                 System.out.println();

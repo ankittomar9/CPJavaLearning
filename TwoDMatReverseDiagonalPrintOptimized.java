@@ -5,8 +5,20 @@ public class TwoDMatReverseDiagonalPrintOptimized {
         int n=arr.length;
 
         for(int i=0;i<n;i++){
-            System.out.println(arr[i][n-i-1]);
+            System.out.println(arr[i][n-i-1]); 
+            // observation important here draw it 
         }
     }
     
+/*Best simple Approach 
+ int i=0 int j=n-1
+ 
+ while(i<n &&j>=0){
+ System.out.println(arr[i][j]);
+ i++
+ j--
+ */
 }
+
+
+

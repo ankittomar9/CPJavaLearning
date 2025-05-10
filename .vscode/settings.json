@@ -2,18 +2,17 @@
     "editor.suggest.showWords": false,
     "editor.suggest.showClasses": false,
     "editor.suggest.showFunctions": false,
-    "editor.suggest.showKeywords": false,
+    "editor.suggest.showKeywords": true,
     "editor.suggest.showSnippets": false,
-    "editor.suggest.showMethods": false,
-    "java.jdt.ls.java.home": null,
-    "git.ignoreLimitWarning": true,
-    "java.project.sourcePaths": [
-        "."
-    ],
-    "java.project.referencedLibraries": [],
+    "editor.suggest.showMethods": true,
     "editor.quickSuggestions": {
         "other": false,
         "comments": false,
         "strings": false
-    }
+    },
+    "editor.inlineSuggest.enabled": false,
+    "github.copilot.enable": "disabled",
+    "github.copilot.editor.enableAutoCompletions": false,
+    "github.copilot.editor.enableAutoCompletionsForAllLanguages": false,
+    "github.copilot.inlineSuggest.enable": false
 }

@@ -2,4 +2,8 @@
 .vscode/
 
 # Ignore the logs folder
-out/
+out/*.class
+
+# Ignore the build folder
+*.class
+

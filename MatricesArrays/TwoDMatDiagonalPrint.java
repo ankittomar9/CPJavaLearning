@@ -1,3 +1,4 @@
+package MatricesArrays;
 public class TwoDMatDiagonalPrint {
 
     public static void main(String args[]){

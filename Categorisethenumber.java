@@ -22,3 +22,18 @@ public class Categorisethenumber {
     }
     
 }
+/*
+
+ Problem Constraints
+-10000 <= N <= 10000 except 0
+
+Input: 
+ I/P:1 : 15
+ Output: Odd Positive
+
+ I/P:1 :-38
+ Output:Even-Negative
+
+ Exp: Not required
+
+ */

@@ -1,1 +1,1 @@
-CANDIDATE MASTER
+ Number of days in February(2) in a non-leap year = 28.

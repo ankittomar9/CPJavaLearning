@@ -1,1 +1,2 @@
-Its a valid triangle
+Profit is : 
+2.0

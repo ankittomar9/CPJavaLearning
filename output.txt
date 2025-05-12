@@ -1,1 +1,1 @@
-y is smaller 3
+ is Not Divisible by 5 and 11 

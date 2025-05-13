@@ -1,1 +1,2 @@
-Insufficicent funds 
+Enter the number of units consumed: 150
+Total Electricity Bill: 120

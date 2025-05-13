@@ -8,6 +8,7 @@ public class MultiplesOfANumber {
         
         MultiplesOfANumberFunc(x);
 
+        scn.close();
 
     }
 

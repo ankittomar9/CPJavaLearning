@@ -12,7 +12,7 @@ public class FirstVsLast {
     }
     public static void FirstVsLastFunc(int t ,int x){
         while(t-- >0){
-        int i=0;
+        //int i=0;
         int first=0;int last=x%10;
         while(x>0){
             first=x%10;

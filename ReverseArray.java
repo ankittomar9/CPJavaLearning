@@ -1,3 +1,6 @@
+
+import java.util.Arrays;
+
 public class ReverseArray {
     public static void main(String args[]){
          int arr[]={2,5,1,4,8,0,8,1,3,8};
@@ -13,7 +16,7 @@ public class ReverseArray {
             i++;
             j--;
          }
-       //  System.out.println(.toString(arr));
+         System.out.println(Arrays.toString(arr));
 
        for(int k=0;k<arr.length;k++){
         System.out.print(" "+arr[k]);

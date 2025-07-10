@@ -15,19 +15,12 @@ public class CountFactorsOptimize {
         int i=1;
         int count=0;
 
-        while(i*i<=x){
+        if(i*i<=x){
             if(x%i==0){
-                if(i*i==x)
-               //  System.out.print(" "+i);
-                count+=1;
-
-            }else {
-                count+=2;
+                
             }
-           // System.out.print(" "+i);
-            i++;
-           
         }
+
         System.out.println("\n"+count);
     }
     

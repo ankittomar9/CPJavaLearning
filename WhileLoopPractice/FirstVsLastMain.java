@@ -1,3 +1,4 @@
+package WhileLoopPractice;
 import java.lang.*;
 import java.util.*;
 

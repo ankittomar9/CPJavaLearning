@@ -1,3 +1,4 @@
+package WhileLoopPractice;
 import java.util.Scanner;
 
 public class SummationGameWL {

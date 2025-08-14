@@ -1,10 +1,8 @@
 import java.util.Arrays;
 class PrefixArray{
 
-public 
+public static void main(String args[]){
+            
 
-
-
-
-
+}
 }

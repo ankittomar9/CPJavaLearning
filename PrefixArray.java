@@ -17,6 +17,9 @@ public static void main(String args[]){
     System.out.println(Arrays.toString(arr1));  // SC O(N) original array modified 
   //  System.out.println(Arrays.toString(prefix_arr)); SC // O(N) original array intact
     //[2, 5, 9, 17, 23, 30, 35]
+
+         System.out.println(Arrays.toString(prefix_arr)); 
+
 }
 }
 

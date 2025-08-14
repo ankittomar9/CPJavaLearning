@@ -32,5 +32,14 @@ public class RotateArrayKtimes {
  }
 }
 
+/*
+Input array  and rotation times 
+int arr[]={2,5,1,4,8,0,8,1,3,8};
+       int k=4;   //
 
+       output : 
+       [8, 3, 1, 8, 0, 8, 4, 1, 5, 2]
+       8 3 1 8 0 8 4 1 5 2
+
+*/
 

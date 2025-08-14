@@ -23,6 +23,10 @@ public static void main(String args[]){
 }
 }
 
+/*
+Prefix array   //pf[i] =sum(0-i)=pf[i-1]+A[i]
+
+ */
 
 
 

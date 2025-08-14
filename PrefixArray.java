@@ -26,6 +26,10 @@ public static void main(String args[]){
 /*
 Prefix array   //pf[i] =sum(0-i)=pf[i-1]+A[i]
 
+output : 
+[8, 3, 1, 8, 0, 8, 4, 1, 5, 2]
+[8, 11, 12, 20, 20, 28, 32, 33, 38, 40]
+
  */
 
 

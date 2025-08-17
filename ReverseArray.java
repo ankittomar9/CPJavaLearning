@@ -24,3 +24,5 @@ public class ReverseArray {
 
     }
 }
+
+/**   Input   int arr[]={2,5,1,4,8,0,8,1,3,8}; */

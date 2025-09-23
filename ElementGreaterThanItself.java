@@ -1,41 +1,44 @@
+
+import java.util.Scanner;
+
 public class ElementGreaterThanItself {
-public static void main(String args[]){
+    public static void main(String args[]){
+        Scanner scn=new Scanner(System.in);
         //int arr[]={2,5,1,4,8,0,8,1,3,8};
-        int arr[]={1,4,9,3,4,1,6 ,7 };
-        int count=0; int max=Integer.MIN_VALUE;
+        int arr[]={2,5,1,4,8,0,8,1,3,8,10,7,8,10};
+
+        int max=Integer.MIN_VALUE; int count=0;
+        
         for(int i=0;i<arr.length;i++){
-                if(arr[i]>max){
-                    max=arr[i];
-                }
-                //max=Max(arr[i],max)
+            if(arr[i]>max){
+            max=arr[i];
         }
-        for(int i=0;i<arr.length;i++){
-            if(arr[i]==max){
+            
+        }
+        System.out.println("Elements in array : " +arr.length  );
+        System.out.println("Maximum element " +max);
+
+      
+
+        for(int j=0;j<arr.length;j++){
+            if(arr[j]==max){
                 count++;
             }
         }
-        System.out.println(" The elements are "+(arr.length-count));
-
+          System.out.println("Count of elements greater than itself : " +(arr.length-count));
     }
+
+
+   
     
 }
 
 
-/*Given an array A of N integers. 
-Count the number of elements that have at least 1 elements greater than itself.
-First and only argument is an array of integers A.
-Return the count of elements. 
-
-Approach : condition 1 element greater than itself
-count 
-
-array : 1 4 9  3  4  1 6 7 
-
- 1 max element O(n) 
- 1.1 traverse array  check whether the current element is greater than than max if not increase the counter 
- else 
-
- 2 sort array last maximum O(nlogn)
-
-
-*/
+/*
+ * Element greater than itself
+ * logic thinking find maximum element
+ * Do think what to do after finding maximum element
+ * total element     count/freq of max element
+ * think about initial maximum
+ * 
+ */

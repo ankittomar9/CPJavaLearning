@@ -1,1 +1,3 @@
- The elements are 7
+Elements in array : 14
+Maximum element 10
+Count of elements greater than itself : 12

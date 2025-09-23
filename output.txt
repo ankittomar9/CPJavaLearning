@@ -1,4 +1,1 @@
--2147483648
-Elements in array : 14
-Maximum element 10
-Count of elements greater than itself : 12
+[9, 8, 7, 6, 5, 4, 3, 2, 1]

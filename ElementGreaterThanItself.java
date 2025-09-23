@@ -8,6 +8,7 @@ public class ElementGreaterThanItself {
         int arr[]={2,5,1,4,8,0,8,1,3,8,10,7,8,10};
 
         int max=Integer.MIN_VALUE; int count=0;
+      //  System.out.println(max);
         
         for(int i=0;i<arr.length;i++){
             if(arr[i]>max){

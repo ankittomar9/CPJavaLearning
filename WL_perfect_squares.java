@@ -10,11 +10,14 @@ public class WL_perfect_squares {
     public static void WL_perfect_squares_func( int a){
         int i=1;
         while(i<=a){
-            if()
+            if(i*i==a){
+                System.out.print(" "+i);
+            }
+           
             
             
-            
-            i++;}
+            i++;
+        }
 
      }
 }

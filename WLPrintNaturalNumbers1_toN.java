@@ -10,7 +10,7 @@ public class WLPrintNaturalNumbers1_toN {
 
         int i=1;
         while(i<=a){
-            System.out.println(" "+i);
+            System.out.print(" "+i);
             i++;
          }
 
@@ -18,3 +18,10 @@ public class WLPrintNaturalNumbers1_toN {
 
     
 }
+
+
+/*
+Write a program that takes a positive integer N as input
+ from the user and prints all natural numbers from 1 to N, with each number followed by a space 
+ (including the last number).
+  */

@@ -1,7 +1,7 @@
-public class ArrayMaxMinOfAnArray {
+package practicsedtemp;
+public class ArraySearchElement {
       public static void main(String args[]){
         
     }
   
-    
 }

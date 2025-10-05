@@ -1,3 +1,4 @@
+package practicsedtemp;
 
 public class ArraysCountOfPairsSum {
     public static void main(String args[]){

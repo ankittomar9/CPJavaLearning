@@ -11,7 +11,7 @@ public class WL_odd_numbers_1_to_N {
  
     public static void WL_odd_numbers_1_to_N(int n){
         int i=1;
-        while( i<n){
+        while( i<=n){
             if(i%2!=0){
                 System.out.print(" "+i);
             }
@@ -27,6 +27,6 @@ public class WL_odd_numbers_1_to_N {
 }
 
 /*
- * 
+ Write a program to print all odd numbers from 1 to N where you have to take N as input from user. Here N is inclusive.
 
  */

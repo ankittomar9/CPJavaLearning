@@ -1,1 +1,1 @@
-The sum of Even Range : 30
+Power of 2 raised to 5 is : 32

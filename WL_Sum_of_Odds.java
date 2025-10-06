@@ -7,7 +7,7 @@ public class WL_Sum_of_Odds {
 
         int i=0;int sum=0;
         while(i<=n){
-            if(i%2!=0){
+            if(i%2!=0){   // i=i+2
                 sum=sum+i;
             }
 

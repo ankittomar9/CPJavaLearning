@@ -3,11 +3,15 @@ import java.util.Scanner;
 public class WL_count_digits {
     public static void main(String args[]){
         Scanner scn=new Scanner(System.in);
-        int n=scn.nextInt();
+        int t=scn.nextInt();
+       
 
-        int i=0;int count=0;
+      
+        while(t>0){
 
-        while(n>0){
+                 int n=scn.nextInt();
+                  int count=0;
+                while(n>0){
            
           //  n=n%10;  // i get the last element
             
@@ -16,6 +20,11 @@ public class WL_count_digits {
         }
 
         System.out.println(count);
+        t--;
     }
+
+        }
+
+        
     
 }

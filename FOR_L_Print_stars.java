@@ -16,3 +16,13 @@ public class FOR_L_Print_stars {
             }
 
 }
+
+
+/*
+Given an integer N, print N stars in a single line.
+
+For example if N = 5 then pattern will be like:
+
+*****
+
+ */

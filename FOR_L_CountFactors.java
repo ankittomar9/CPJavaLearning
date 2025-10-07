@@ -25,6 +25,7 @@ public class FOR_L_CountFactors {
 
 
 /*
+Using For Loop
  Problem Description
 
 Take an integer N as input and print the count of its factors.

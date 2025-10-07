@@ -1,5 +1,5 @@
 import java.util.Scanner;
-
+/*Revision */
 public class FOR_L_LCM {
     public static void main(String args[]){
         Scanner scn=new Scanner(System.in);

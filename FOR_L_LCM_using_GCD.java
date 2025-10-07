@@ -1,5 +1,5 @@
 import java.util.Scanner;
-
+/*Revision */
 public class FOR_L_LCM_using_GCD {
 
  public static void main(String args[]){

@@ -1,3 +1,4 @@
+package WL_ALL_Practice_Programs;
 import java.util.*;
 public class WL_odd_numbers_1_to_N {
     

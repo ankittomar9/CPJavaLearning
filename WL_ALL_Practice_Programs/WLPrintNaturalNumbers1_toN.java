@@ -1,3 +1,4 @@
+package WL_ALL_Practice_Programs;
 import java.util.*;
 public class WLPrintNaturalNumbers1_toN {
     public static void main(String args[]){

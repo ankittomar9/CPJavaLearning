@@ -1,3 +1,4 @@
+package WL_ALL_Practice_Programs;
 import java.util.Scanner;
 
 public class WL_Summation_1_to_N {

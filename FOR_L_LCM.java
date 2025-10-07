@@ -11,7 +11,8 @@ public class FOR_L_LCM {
     }
    public static void  FOR_L_LCM_Func(int n,int m){
 
-     int mx = Math.max(n,m); int mn=Math.min(n,m);
+    // int mx = Math.max(n,m);
+      int mn=Math.min(n,m);
 
             for(int i=mn;i<=n*m ;i++){
                          if (i % n == 0 && i % m == 0) {

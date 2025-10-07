@@ -1,2 +1,1 @@
-Given number is NOT perfect number
-Given number is perfect number
+*****

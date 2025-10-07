@@ -22,4 +22,14 @@ public class FOR_L_MatrixOf_Stars {
         }
 
     }
+    /*
 
+Problem Description
+Given two integers N and M as inputs, print a rectangle of N * M stars.
+For example if N = 3, M = 4 then pattern will be like:
+
+****
+****
+**** 
+
+     */

@@ -1,1 +1,1 @@
-given number is palindromic : 
+The count of Factors are : 2

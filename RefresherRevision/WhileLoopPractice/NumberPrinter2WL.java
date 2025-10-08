@@ -1,4 +1,4 @@
-package WhileLoopPractice;
+package RefresherRevision.WhileLoopPractice;
 import java.util.Scanner;
 
 public class NumberPrinter2WL {

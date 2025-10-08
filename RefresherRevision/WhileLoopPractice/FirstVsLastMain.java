@@ -1,4 +1,4 @@
-package WhileLoopPractice;
+package RefresherRevision.WhileLoopPractice;
 import java.lang.*;
 import java.util.*;
 

@@ -1,3 +1,4 @@
+package FOR_L_practice;
 import java.util.Scanner;
 /*Revision */
 public class FOR_L_LCM_using_GCD {

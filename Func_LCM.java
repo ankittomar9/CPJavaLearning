@@ -9,9 +9,13 @@ public class Func_LCM {
 
     int mn=Math.min(n, m);
         int mx=Math.max(n, m);
-     for(int i=mn;i<=mx;i++){
+     for(int i=mn;i<=m*n;i++){
+        if(i%n==0 && i%m==0){
+            System.out.print(i);
+             break;
+        }
+       
 
-        
     }
 
     }

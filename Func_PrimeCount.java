@@ -27,3 +27,13 @@ public class Func_PrimeCount {
     }
     
 }
+
+
+/**
+ *  Do sieve after wards
+ * 
+ * 
+ * 
+ * 
+ * 
+ */

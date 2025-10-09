@@ -22,3 +22,9 @@ public class Arrays_Search_Counter {
         }
     }
 }
+
+
+/*
+ this uses counter appraoch and says keeps the count of that element 
+ also the last occuring index of the finnding eleement
+ */

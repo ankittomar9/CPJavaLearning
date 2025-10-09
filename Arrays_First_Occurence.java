@@ -24,5 +24,14 @@ public class Arrays_First_Occurence {
         }
         
     }
-    
 }
+
+
+
+
+ /*
+ * This program does not searches all the elements in the array 
+ * and store the first index occurence of that element in Array
+ * 
+ * 
+ */

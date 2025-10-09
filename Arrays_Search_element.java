@@ -26,3 +26,8 @@ public class Arrays_Search_element {
 
     }
 }
+/*
+ * This program searches all the elements in the array and store the last occurence of that element in Array
+ * 
+ * 
+ */

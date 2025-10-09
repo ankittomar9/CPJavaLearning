@@ -18,10 +18,8 @@ public class Arrays_Search_element {
               
             }
         }
-        if(flag==true){
-            
-        }else{
-                 System.out.println("Element Doesn't Exists");
+        if(!flag){
+              System.out.println("Element Doesn't Exists");
         }
 
        

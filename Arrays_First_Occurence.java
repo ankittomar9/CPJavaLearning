@@ -33,5 +33,5 @@ public class Arrays_First_Occurence {
  * This program does not searches all the elements in the array 
  * and store the first index occurence of that element in Array
  * 
- * 
- */
+ * /* This program finds and reports the first occurrence of the element, stopping the search immediately using 'break'. */
+

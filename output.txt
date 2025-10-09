@@ -1,6 +1,10 @@
-Indices where 6 is present:
-Element exists at index  : 2
-Element exists at index  : 10
-Element exists at index  : 13
-Element exists at index  : 17
-Element exists at index  : 20
+0
+1
+3
+6
+10
+15
+21
+28
+36
+Sum of all the elements in the array : 36

@@ -1,2 +1,2 @@
-9 17 24 30 35 39 42 44 45  
-Sum of all the elements in the array : 45
+The maximum value in array is : 9
+The minimum value in array is : 1

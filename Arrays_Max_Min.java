@@ -6,7 +6,28 @@ public class Arrays_Max_Min {
             int max=Integer.MIN_VALUE;
 
 
-            
+        for(int i=0;i<arr.length;i++){
+            if(arr[i]>max){
+                max=arr[i];
+            }
+        }
+         System.out.println("The maximum value in array is : " +max);
+    
+        for(int i=0;i<arr.length;i++){
+            if(arr[i]<min){
+                min=arr[i];
+            }
+        }
+
+         System.out.println("The minimum value in array is : " +min);
+    
     }
     
 }
+
+
+/*
+ 
+
+
+ */

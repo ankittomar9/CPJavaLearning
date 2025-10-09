@@ -8,11 +8,12 @@ public class Arrays_Sum {
         int sum=0;        
             for(int i=0;i<=arr.length-1;i++){
                 //sum=sum+arr[i];
-                        System.out.println(    sum=sum+i);
+                        System.out.print( sum=sum+arr[i]);
+                         System.out.print( " ");
              //  System.out.println(    sum=sum+i);
             }
 
-            System.out.println("Sum of all the elements in the array : " +sum);
+            System.out.println(" \nSum of all the elements in the array : " +sum);
     }
     
 }
@@ -21,6 +22,7 @@ public class Arrays_Sum {
 /*
  * 
  * 
-Sum of all the elements in the array : 
+9 17 24 30 35 39 42 44 45  
+Sum of all the elements in the array : 45
  * 
  */

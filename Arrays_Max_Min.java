@@ -28,6 +28,10 @@ public class Arrays_Max_Min {
 
 /*
  
+Problem Description
 
+Take input an array A of size N and write a program to print maximum and minimum elements of the input. 
+The maximum value in array is : 9
+The minimum value in array is : 1
 
  */

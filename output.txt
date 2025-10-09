@@ -1,1 +1,6 @@
-Element Exists at index 0
+Indices where 6 is present:
+Element exists at index  : 2
+Element exists at index  : 10
+Element exists at index  : 13
+Element exists at index  : 17
+Element exists at index  : 20

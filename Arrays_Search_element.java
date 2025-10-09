@@ -8,29 +8,23 @@ public class Arrays_Search_element {
         
         int k=scn.nextInt();
         boolean flag=false;
-        int count=0;
-        int a=0;int z=0;
+      
+      //  int a=0;
 
         for(int i=0;i<=arr.length-1;i++){
             if(arr[i]==k){
-                flag=true; a=i; 
-               z++;
+                 System.out.println("Element Exists at index "+i);
+                flag=true; 
+              
             }
         }
         if(flag==true){
-             System.out.println("Element Exists at index "+a);
+            
         }else{
                  System.out.println("Element Doesn't Exists");
         }
 
-        if(count==0){
-             System.out.println("Element Doesn't Exists");
-        }else{
-           
-             System.out.println("Element Exists at index "+z);
-
-        }
-
+       
 
     }
 }

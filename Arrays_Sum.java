@@ -21,7 +21,7 @@ public class Arrays_Sum {
 
 /*
  * 
- * 
+ * Write a program to print sum of elements of the input array arr of size N.
 9 17 24 30 35 39 42 44 45  
 Sum of all the elements in the array : 45
  * 

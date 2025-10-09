@@ -1,2 +1,4 @@
-The maximum value in array is : 9
-The minimum value in array is : 1
+Original Array before Deletion 
+[2, 9, 6, 7, 8, 2, 4, 5, 1, 3, 6]
+Array after Deletion by Value  
+[2, 9, 6, 7, 8, 2, 5, 1, 3, 6]

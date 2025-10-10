@@ -1,1 +1,2 @@
-[3, 1, 2, 3, 2, 3]
+Yes Consecutive duplicate in array
+[1, 2, 3, 3]

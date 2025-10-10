@@ -18,10 +18,10 @@ public class Arrays_InPlace_Deletion {
         // 2. Overwrite the last element with a placeholder (0)
         arr[N - 1] = 0; 
 
-        System.out.println("Original Array: " + Arrays.toString(arr));
+        System.out.println("Original Array:\n " + Arrays.toString(arr));
         
         // Note: The logical size is N-1, but the physical size remains N.
-        System.out.println("Array after In-Place Deletion (Logical Size " + (N-1) + "): " + Arrays.toString(arr));
+        System.out.println("Array after In-Place Deletion\n (Logical Size " + (N-1) + "): \n" + Arrays.toString(arr));
     }
 }
 

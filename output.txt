@@ -1,1 +1,1 @@
-The product of all elements in array is : 6426.0
+[3, 1, 2, 3, 2, 3]

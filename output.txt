@@ -1,2 +1,1 @@
-Yes Consecutive duplicate in array
-[1, 2, 3, 3]
+4

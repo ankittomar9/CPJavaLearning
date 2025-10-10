@@ -25,3 +25,16 @@ public class Arrays_InPlace_Deletion {
     }
 }
 
+
+
+/*Output (for n=6):
+
+Index	0	1	2	3	4	5	6	7	8	9	10	11
+Value	1	2	3	5	4	6	7	3	1	2	4	0
+
+Export to Sheets
+The original value '9' at index 6 is overwritten by '7'.
+
+The last element '4' is replaced by '0'.
+
+This method saves memory by using only one array, but it requires you to track the logical size separately to avoid processing the placeholder '0'. */

@@ -7,7 +7,6 @@ public class Arrays_frequency_array {
         int x=scn.nextInt();
                  int arr[]={2,9,6,7,8,2,4,5,1,3,6};
         int count=0;
-
         for(int i=0;i<arr.length;i++){
             if(arr[i]==x){
                 count++;
@@ -15,8 +14,6 @@ public class Arrays_frequency_array {
         }
         System.out.println(Arrays.toString(arr)+"\n");
         System.out.println("The Frequency of "+x+" in array is : "+count);
-
-
 
     }
     

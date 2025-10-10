@@ -1,4 +1,4 @@
-package practicsedtemp;
+package RefresherRevision.practicsedtemp;
 
 import java.util.Scanner;
 

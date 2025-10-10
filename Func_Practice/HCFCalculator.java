@@ -1,3 +1,4 @@
+package Func_Practice;
 
 public class HCFCalculator {
 

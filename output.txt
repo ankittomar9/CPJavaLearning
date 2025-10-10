@@ -1,2 +1,1 @@
-Original Array: [5, 1, -5, 2, -8, -4, 4, -1, 0, -8, -1]
-Compacted Negatives: [-5, -8, -4, -1, -8, -1]
+The product of all elements in array is : 6426.0

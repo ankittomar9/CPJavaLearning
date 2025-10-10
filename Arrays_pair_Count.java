@@ -35,4 +35,15 @@ public class Arrays_pair_Count {
 You are required to return the count of pairs having sum equal to B
      * 
      * 
+i	j	arr[i]	arr[j]	Sum	Result
+0	6	2	4	6	Count++
+0	8	2	2	4	
+0	10	2	6	8	
+1	9	3	3	6	Count++
+5	6	2	4	6	Count++
+8	9	2	3	5	
+8	10	2	6	8	
+8	11	2	4	6	Count++
+
+     * 
      */

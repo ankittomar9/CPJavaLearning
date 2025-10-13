@@ -13,16 +13,31 @@ public class Arrays2DPrintColByCol {
                 mat[i][j]=scn.nextInt();
             }
         }
+        // row by row
+        //  for(int i=0;i<n;i++){
+        //     for(int j=0;j<m;j++){
+        //         System.out.print(mat[i][j]+" ");
+        //     }
+        //         System.out.println("");
+        // }
 
-         for(int i=0;i<n;i++){
-            for(int j=0;j<m;j++){
-                System.out.print(mat[i][j]+" ");
+        // column by colmun
+         for(int j=0;j<m;j++){
+            for(int i=0;i<n;i++){
+                System.out.print(mat[j][i]+" ");
             }
                 System.out.println("");
         }
 
-
-
     }
     
 }
+
+/*3 
+4
+1 2 3 4
+4 5 6 5
+7 8 9 6
+
+
+*/

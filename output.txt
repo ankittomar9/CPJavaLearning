@@ -1,3 +1,1 @@
-Original Array: [2, 3, 6, 7, 8, 2, 4, 5, 2, 3, 6]
-Compacted Even Array : [2, 6, 8, 2, 4, 2, 6]
-Compacted Odd Array : [3, 7, 5, 3]
+[[1, 2, 3], [4, 5, 6], [7, 8, 9]]

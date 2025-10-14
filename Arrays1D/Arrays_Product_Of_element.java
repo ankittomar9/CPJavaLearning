@@ -1,3 +1,4 @@
+package Arrays1D;
 public class Arrays_Product_Of_element {
     public static void main(String args[]){
         int arr[]={7,9,2,51};

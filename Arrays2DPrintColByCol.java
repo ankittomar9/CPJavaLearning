@@ -24,7 +24,7 @@ public class Arrays2DPrintColByCol {
         // column by colmun
          for(int j=0;j<m;j++){
             for(int i=0;i<n;i++){
-                System.out.print(mat[j][i]+" ");
+                System.out.print(mat[i][j]+" ");
             }
                 System.out.println("");
         }
@@ -38,6 +38,11 @@ public class Arrays2DPrintColByCol {
 1 2 3 4
 4 5 6 5
 7 8 9 6
+
+1 4 7 
+2 5 8 
+3 6 9 
+4 5 6 
 
 
 */

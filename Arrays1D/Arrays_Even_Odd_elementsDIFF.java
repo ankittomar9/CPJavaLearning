@@ -1,3 +1,4 @@
+package Arrays1D;
 public class Arrays_Even_Odd_elementsDIFF {
     public static void main(String args[]){
         int arr[]={2, 3, 5, 1};

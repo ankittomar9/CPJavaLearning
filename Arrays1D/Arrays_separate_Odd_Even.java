@@ -1,3 +1,4 @@
+package Arrays1D;
 import java.util.Arrays;
 
 public class Arrays_separate_Odd_Even {

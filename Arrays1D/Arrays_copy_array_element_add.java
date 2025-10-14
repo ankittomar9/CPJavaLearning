@@ -1,3 +1,4 @@
+package Arrays1D;
 import java.util.Arrays;
 import java.util.Scanner;
 

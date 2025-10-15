@@ -14,8 +14,9 @@ public class ArrayList5and7Divisible {
             arr.add(35);    
 
             for(int i=0;i<arr.size();i++){
-                if(i%7==0 || i%5==0){
-                    arr1.add(i);
+                int val=arr.get(i);
+                if(val%7==0 || val%5==0){
+                    arr1.add(val);
                 }
             }
 

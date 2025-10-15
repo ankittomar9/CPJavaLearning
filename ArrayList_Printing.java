@@ -11,7 +11,7 @@ public class ArrayList_Printing {
         arr.add(30);
 
         for(int i=0;i<arr.size();i++){
-            System.out.println(arr);
+         //   System.out.println(arr);
 
         }
 

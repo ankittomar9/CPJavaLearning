@@ -12,6 +12,8 @@ public class ArraList_Unique {
       Collections.sort(list); 
       System.out.println(list);
 
+      
+
         
     }
     

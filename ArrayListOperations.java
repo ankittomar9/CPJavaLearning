@@ -10,8 +10,9 @@ public class ArrayListOperations {
         List<Integer> list=new ArrayList<>();  // Empty ArrayList
 
         for(int i=0;i<x;i++){
-            int element=scn.nextInt();
-           list.add(element); 
+           // int element=scn.nextInt();
+            
+           list.add(scn.nextInt()); 
            
         }
 

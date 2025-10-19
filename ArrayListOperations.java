@@ -14,6 +14,7 @@ public class ArrayListOperations {
            
         }
 
+        System.out.println(list);
 
     }
     

@@ -4,6 +4,10 @@ public class ArrayListOperations {
         Scanner scn=new Scanner(System.in);
         List<Integer> list=new ArrayList<>();
 
+        for(int i=0;i<list.size();i++){
+
+        }
+
 
     }
     

@@ -9,8 +9,8 @@ public class ArrayListOperations {
         List<Integer> list=new ArrayList<>();  // 10 20 30 40 50 60 70 
 
         for(int i=0;i<list.size();i++){
-            
-           list.add(scn.get(i)); 
+           list.add(scn); 
+           
         }
 
 

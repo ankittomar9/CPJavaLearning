@@ -6,9 +6,10 @@ public class ArrayListOperations {
 
     public static void main(String args[]){
         Scanner scn=new Scanner(System.in);
-        List<Integer> list=new ArrayList<>();  // 10 20 30 40 50 60 70 
+        int x=scn.nextInt(); //arrrayList size;
+        List<Integer> list=new ArrayList<>();  // Empty ArrayList
 
-        for(int i=0;i<list.size();i++){
+        for(int i=0;i<x;i++){
             int element=scn.nextInt();
            list.add(element); 
            

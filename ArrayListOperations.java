@@ -9,6 +9,7 @@ public class ArrayListOperations {
         List<Integer> list=new ArrayList<>();
 
         for(int i=0;i<list.size();i++){
+            
 
         }
 

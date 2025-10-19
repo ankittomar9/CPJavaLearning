@@ -15,7 +15,7 @@ public class ArrayListOperations {
         }
         System.out.println(list);
 
-        list.remove(4);
+        list.remove(3B);
          System.out.println(list);
 
          list.addAll(newlist);

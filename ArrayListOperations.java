@@ -10,7 +10,7 @@ public class ArrayListOperations {
 
         for(int i=0;i<list.size();i++){
             
-           list.add(); 
+           list.add(scn.get(i)); 
         }
 
 

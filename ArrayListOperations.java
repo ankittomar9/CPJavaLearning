@@ -5,7 +5,7 @@ public class ArrayListOperations {
     public static void main(String args[]){
 
         Scanner scn=new Scanner(System.in);
-        int x=scn.nextInt(); //arrrayList size;
+        int x=scn.nextInt(); //arrayList size;
         List<Integer> list=new ArrayList<>();  // Empty ArrayList
         List<Integer> newlist=new ArrayList<>(List.of(5,10,15,20));
         int newInt=90;    int newInt2=10;

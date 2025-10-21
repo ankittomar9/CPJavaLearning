@@ -18,7 +18,7 @@ public class ArrayList_Unique2 {
            step_req=New_steps; 
         }
         else{
-            int total_steps=step_req+1;
+            int compare_steps=step_req+1;
 
         }
         

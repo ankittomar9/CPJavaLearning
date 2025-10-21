@@ -8,7 +8,7 @@ public class ArrayList_Unique2 {
         ArrayList<Integer> list=new ArrayList<>(List.of(2,4,6,8,1,2,4,6,7,1));
         Collections.sort(list);
         System.out.println(list);
-        long total_steps=0;
+        long total_steps_count=0;
         int step_req=list.get(0);
 
         for(int i=1;i<list.size();i++){
@@ -19,7 +19,7 @@ public class ArrayList_Unique2 {
         }
         else{
             int compare_steps=step_req+1;
-            
+
             int desiredValue=required_nextUnique+1;
             total_steps=total_steps+(desiredValue-current);
             list.set(i, desiredValue);

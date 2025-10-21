@@ -1,5 +1,6 @@
 
 import java.util.ArrayList;
+import java.util.Collections;
 
 public class ArrayList_Unique2 {
     public static void main(String args[]){

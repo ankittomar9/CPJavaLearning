@@ -26,7 +26,7 @@ public class ArrayList_Unique2 {
             step_req=compare_steps;
 
         }
-        
+         System.out.println(list);
         
         
         

@@ -9,7 +9,13 @@ public class ArrayList_Unique2 {
         for(int i=1;i<list.size();i++){
             int New_steps=list.get(i);
         
-        
+        if(New_steps>step_req){
+           step_req=New_steps; 
+        }
+        else{
+            int total_steps=step_req+1;
+            
+        }
         
         
         

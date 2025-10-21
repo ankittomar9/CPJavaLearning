@@ -19,18 +19,15 @@ public class ArrayList_Unique2 {
         }
         else{
             int compare_steps=step_req+1;
-
-            
+  
             total_steps_count=total_steps_count+(compare_steps-New_steps);
             list.set(i, compare_steps);
             step_req=compare_steps;
 
         }
-         System.out.println(list);
-        
-        
-        
+         
         }
+         System.out.println(list);
 
 
     }

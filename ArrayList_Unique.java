@@ -22,7 +22,7 @@ public class ArrayList_Unique {
           required_nextUnique=current;
         }
         else{
-          int desiredValue=required_nextUnique+1;
+          int desiredValue=required_nextUnique+1;  // increasing if the elements are eqaul and setting them in the array
           total_steps=total_steps+(desiredValue-current);
           list.set(i, desiredValue);
           required_nextUnique=desiredValue;

@@ -9,16 +9,16 @@ public class ArrayList_Unique {
        ArrayList<Integer>list=new ArrayList<>(List.of(2 ,4,6,8,1,2,4,6,7,1));
 
       //Sorting it 
-      Collections.sort(list); 
+      Collections.sort(list);  //sort the list important greedy approach
       System.out.println(list);
 
-      long total_steps=0;
+      long total_steps=0;    
       int required_nextUnique=list.get(0);
 
       for(int i=1;i<list.size();i++){
         int current=list.get(i);
 
-        if(current>required_nextUnique){
+        if(current>required_nextUnique){   // check if next element is equal or needed to be increased
           required_nextUnique=current;
         }
         else{

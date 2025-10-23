@@ -12,6 +12,7 @@ public class ArrayList_MatrixRowColumn_Sum {
             List.of(8)
         )
     );    
+    // Revision the declaration 
 
     System.out.println("2D ArrayList Initialized:");
         System.out.println(list); 

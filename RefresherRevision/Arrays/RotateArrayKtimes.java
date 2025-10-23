@@ -6,7 +6,7 @@ public class RotateArrayKtimes {
        int k=4;   //
        int n=arr.length;
             reverseArray(arr,0, n-1);
-              System.out.println(Arrays.toString(arr));
+              System.out.println(Arrays.toString(arr)); //function 1 call
           
               reverseArray(arr, 0,k-1);
               System.out.println(Arrays.toString(arr));

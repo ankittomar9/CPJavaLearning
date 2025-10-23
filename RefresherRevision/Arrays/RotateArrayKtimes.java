@@ -9,10 +9,10 @@ public class RotateArrayKtimes {
               System.out.println(Arrays.toString(arr)); //function 1 call
           
               reverseArray(arr, 0,k-1);
-              System.out.println(Arrays.toString(arr));
+              System.out.println(Arrays.toString(arr));//function 2 call
           
               reverseArray(arr, k,n-1); 
-             System.out.println(Arrays.toString(arr));
+             System.out.println(Arrays.toString(arr));//function  call
 
 
     }

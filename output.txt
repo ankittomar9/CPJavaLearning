@@ -1,7 +1,5 @@
-[[1, 2, 3], [4, 5, 6], [7, 8, 9]]
-Input Matrix: [[1, 2, 3], [4, 5, 6], [7, 8, 9]]
-Adding diagonal element at [0][0]: 1
-Adding diagonal element at [1][1]: 5
-Adding diagonal element at [2][2]: 9
----------------------------------
-Total Main Diagonal Sum: 15
+A (Dividends): [12, 5, 8, 24, 6, 15]
+B (Divisors): [4, 3, 5]
+
+Final Result Matrix:
+[[12, 8, 24], [12, 24, 6, 15], [5, 15]]

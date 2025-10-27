@@ -15,3 +15,5 @@ public class Arrays_Prefix_sum {
     }
     
 }
+
+/*Prefix Array  creation for Range sum queries */

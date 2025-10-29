@@ -1,3 +1,4 @@
+package Refresher_Complete.Arrays2D;
 import java.util.Scanner;
 
 public class Arrays2DPrintColByCol {

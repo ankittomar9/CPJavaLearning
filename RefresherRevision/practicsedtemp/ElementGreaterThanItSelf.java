@@ -2,7 +2,7 @@ package RefresherRevision.practicsedtemp;
 
 import java.util.Scanner;
 
-public class ElementGreaterThanItself {
+public class ElementGreaterThanItSelf  {
     public static void main(String args[]){
         Scanner scn=new Scanner(System.in);
         //int arr[]={2,5,1,4,8,0,8,1,3,8};

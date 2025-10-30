@@ -7,4 +7,3 @@ out/*.class
 # Ignore the build folder
 *.class
 
-.idea

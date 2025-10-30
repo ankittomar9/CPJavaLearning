@@ -1,4 +1,4 @@
-package FOR_L_practice;
+package Refresher_Complete.FOR_L_practice;
 import java.util.*;
 public class FOR_L_Perfect_Number {
     public static void main(String args[]){
@@ -27,7 +27,6 @@ public class FOR_L_Perfect_Number {
 }
     
 }
-
 
 /*
 Given the Number of Test Cases as T,

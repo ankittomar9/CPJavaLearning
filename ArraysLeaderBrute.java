@@ -3,7 +3,6 @@ public class ArraysLeaderBrute {
     
 }
 
-
 /*Leaders in a Array
  * 
  * Whats a  Leader:

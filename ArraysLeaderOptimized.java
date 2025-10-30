@@ -2,8 +2,6 @@ public class ArraysLeaderOptimized {
     
 }
 
-
-
 /*Leaders in a Array
  * 
  * Whats a  Leader:

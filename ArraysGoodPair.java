@@ -26,4 +26,7 @@ public class ArraysGoodPair {
  Problem Description
 Given an array A and an integer B. A pair(i, j) in the array is a good pair if i != j and (A[i] + A[j] == B).
  Check if any good pair exist or not.
+ input {2,4,6,9,7,1,5,3,6,4,2};
+ output 6
+ 
  */

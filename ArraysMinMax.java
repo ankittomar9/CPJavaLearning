@@ -9,7 +9,7 @@ public class ArraysMinMax {
                 max=arr[i];
 
             }
-            else if(arr[i]<=min){
+             if(arr[i]<=min){
                 min=arr[i];
             }   
     }

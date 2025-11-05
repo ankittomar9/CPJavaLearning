@@ -1,1 +1,2 @@
-6
+min value in array : 1
+max value in array : 9

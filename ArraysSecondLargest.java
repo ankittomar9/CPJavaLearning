@@ -2,7 +2,7 @@ public class ArraysSecondLargest {
     public static void main(String args[]){
         int[] arr={1,7,8,9,4,6,2,5,1,3,4,8};
     int max=Integer.MIN_VALUE; 
-    int second_max=  Integer.MIN_VALUE; 
+    int second_max=  Integer.MIN_VALUE; // -21476935
         if(arr.length<=1){
     //     is_exists=false;
           System.out.println("No elements exists");
@@ -12,8 +12,8 @@ public class ArraysSecondLargest {
     for(int i=0;i<arr.length;i++){
         
         if(arr[i]>max){
-            second_max=max;
-            max=arr[i];
+            second_max=max;  //-21476923
+            max=arr[i];  // 1
         }
         else if(arr[i]>second_max && arr[i]<max)
         second_max=arr[i];

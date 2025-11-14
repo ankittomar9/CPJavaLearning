@@ -34,4 +34,12 @@ It does not matter what you leave beyond the returned k (hence they are undersco
  * 2
 [2, 2, 2, 3]
  * 
+ * 
+ * 
+ * 
+ * 10 17 9 15 14 19 25 8 4 20
+ * 
+ * 17 10 9 15 14 25 19 8 6 20
+ * 
+ * 
  */

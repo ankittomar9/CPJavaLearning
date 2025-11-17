@@ -1,3 +1,4 @@
+package Arrays;
 public class ArraysAGpairOptimized {
     public static void main(String args[]){
       String s="bcaggaag"; 

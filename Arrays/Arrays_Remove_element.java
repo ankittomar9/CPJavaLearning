@@ -1,3 +1,4 @@
+package Arrays;
 
 import java.util.Arrays;
 
@@ -13,7 +14,8 @@ public class Arrays_Remove_element {
             }
         }
 
-        System.out.println(k);
+        System.out.println(k); 
+        
         System.out.println(Arrays.toString(arr));
 
     }

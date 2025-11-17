@@ -1,3 +1,4 @@
+package Arrays;
 public class ArraysLeaderOptimized {
 
     public static void main(String args[]){

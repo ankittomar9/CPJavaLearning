@@ -1,3 +1,4 @@
+package Arrays;
 public class ArraysAGpair {
     public static void main(String args[]){
                                 int count=0;

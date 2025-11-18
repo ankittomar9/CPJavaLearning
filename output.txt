@@ -1,8 +1,2 @@
-Step 1: Creating the Root Node (50)
-Step 2: Connecting Level 1 Children (30 and 70)
-Step 3: Expanding the Left Branch (20 and 40)
-
-Tree Structure Confirmed:
-Root: 50
-Root's Left Child: 30
-Root's Left Child's Left Child: 20
+9
+8

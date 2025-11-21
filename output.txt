@@ -1,1 +1,2 @@
-3
+Number of operations required : 3
+Locations needed to update : [1, 2, 4]

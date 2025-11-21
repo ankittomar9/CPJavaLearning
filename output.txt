@@ -1,2 +1,2 @@
-Found Max  at 4 Value : 5
-Found Min  at 0 Value : 1
+Found Max  at 15 Value : 16
+Found Min  at 13 Value : 1

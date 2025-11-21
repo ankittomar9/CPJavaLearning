@@ -1,2 +1,2 @@
-Number of operations required : 3
-Locations needed to update : [1, 2, 4]
+First Largest : 9
+Second Largest :  8

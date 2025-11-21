@@ -1,2 +1,3 @@
-Found Max  at 15 Value : 16
-Found Min  at 13 Value : 1
+Array Before Rotation: [-1, 2, 3, 6, 5, 4, 8]
+Array After Rotation k=4 times:
+[6, 5, 4, 8, -1, 2, 3]

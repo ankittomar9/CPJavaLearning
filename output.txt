@@ -1,3 +1,2 @@
-Good Pair #1: Elements (2, 5) at Indexes [1, 4]
-Good Pair #2: Elements (3, 4) at Indexes [2, 3]
-Good Pair : 2
+Found Max  at 4 Value : 5
+Found Min  at 0 Value : 1

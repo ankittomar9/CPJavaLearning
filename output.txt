@@ -1,6 +1,1 @@
-Original Array A: [1, 2, 3, 4, 5]
-Rotation Counts B: [2, 3]
-
---- Resulting Rotation Matrix ---
-Rotation k=2: [3, 4, 5, 1, 2]
-Rotation k=3: [4, 5, 1, 2, 3]
+ 7 16 26

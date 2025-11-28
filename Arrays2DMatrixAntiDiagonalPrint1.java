@@ -4,7 +4,7 @@ public class Arrays2DMatrixAntiDiagonalPrint1 {
         int arr[][]={{1,2,3},
                     {4,5,6},
                     {7,8,9}};
-                System.out.println("Anti Diagonal is :");
+                System.out.print("Anti Diagonal is :");
         Arrays2DMatrixAntiDiagonalPrintFunc(arr);
 
                 }
@@ -12,7 +12,7 @@ public class Arrays2DMatrixAntiDiagonalPrint1 {
         int n=arr.length; int i=0; int j=n-1;
         while(i<n && j>=0){ 
 
-            System.out.print("  "+arr[i][j]);
+            System.out.print("  "+arr[i][j]); 
             i++;
             j--;
 

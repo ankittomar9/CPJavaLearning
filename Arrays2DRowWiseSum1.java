@@ -5,9 +5,7 @@ public class Arrays2DRowWiseSum1 {
                     {7,8,9}};
 
        RowWiseSumCalculatorFunc(arr); 
-
     }
-
     public static void RowWiseSumCalculatorFunc(int arr[][]){
          int n=arr.length;
          int m=arr[0].length;

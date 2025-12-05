@@ -1,2 +1,8 @@
-[1, 2, 3]
-[1, 2, 3, 1, 2, 3]
+Subarray Sum from index 0 to 4 : 7
+Subarray Sum from index 1 to 5 : 8
+Subarray Sum from index 2 to 6 : 12
+Subarray Sum from index 3 to 7 : 16
+Subarray Sum from index 4 to 8 : 10
+Subarray Sum from index 5 to 9 : 11
+----------------------------------------------
+The Overall Maximum Subarray Sum is: 16

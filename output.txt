@@ -1,5 +1,3 @@
-[-3, 1, -1, 4, 7, 5, 13, 15, 14, 18]
-Subarray Sum from index 0 to 4 : 7
 Subarray Sum from index 1 to 5 : 8
 Subarray Sum from index 2 to 6 : 12
 Subarray Sum from index 3 to 7 : 16

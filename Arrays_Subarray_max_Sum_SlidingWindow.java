@@ -16,14 +16,15 @@ public class Arrays_Subarray_max_Sum_SlidingWindow {
         int start=1;int end=k;
         while(end<n){
             sum=sum+nums[end]-nums[start-1];
-        }
+      
         if(sum>ans){
             ans=sum;
         }
           System.out.println("Subarray Sum from index "+start+" to "+end+" : " + sum);
-        start++;end++   ;
+        start++;end++;
     }
      System.out.println("----------------------------------------------");
         System.out.println("The Overall Maximum Subarray Sum is: " + ans);
 
+    }
 }

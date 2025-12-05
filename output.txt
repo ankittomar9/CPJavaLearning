@@ -1,3 +1,2 @@
-Array Before Rotation: [-1, 2, 3, 6, 5, 4, 8]
-Array After Rotation k=4 times:
-[6, 5, 4, 8, -1, 2, 3]
+[1, 2, 3]
+[1, 2, 3, 1, 2, 3]

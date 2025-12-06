@@ -1,3 +1,4 @@
+package Arrays2D;
 public class Arrays2DMatrixMainDiagonalPrinting1 {
     public static void main(String args[]){
         int arr[][]={{1,2,3},

@@ -16,6 +16,7 @@ public class Arrays_Subarray_max_Sum_Prefix_sum {
             pf_sum=pf_sum+nums[i];
             pf[i]=pf_sum;
         }
+        
         System.out.println(Arrays.toString(pf));
         while(end<n){
             int sum=0;

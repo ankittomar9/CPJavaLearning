@@ -1,3 +1,4 @@
+package Arrays2D;
 public class Arrays2DColumWiseSum1 {
     public static void main(String args[]){
         int arr[][]={

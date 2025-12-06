@@ -1,3 +1,4 @@
+package Arrays2D;
 import java.util.Arrays;
 public class Arrays2DMatrixScalarProduct1 {
     public static void main(String args[]){

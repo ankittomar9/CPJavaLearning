@@ -1,46 +1,67 @@
 public class Arrays_Subarray_Minimum_Swaps_Required {
     public static void main(String args[]){
-        int nums[]={1,12,10,3,14,10,5};
-        int nums1[]={25,30,2,18,7,6,9,50,3};
-        int num2[]={19,11,3,9,7,25,6,20,4};
-
-        int B=8; //8  10  10 
-        Minimum_Swaps_Required_Func(nums,B);
+        int nums[] = {1, 12, 10, 3, 14, 10, 5};
+        int B = 8;
+        Minimum_Swaps_Required_Func(nums, B);
     }
 
-  public static void Minimum_Swaps_Required_Func(int nums[],int B){
-             int n=nums.length; int k=0; //k is length of subarray window
-             //Finding the Length of subarray window
-        for(int i=0;i<n;i++){
-            if(nums[i]<=B){
+    public static void Minimum_Swaps_Required_Func(int nums[], int B){
+        int n = nums.length; 
+        
+        // --- 1. Determine Window Size (k) ---
+        // k is the count of "good" elements (<= B).
+        int k = 0; 
+        for(int num : nums){
+            if(num <= B){
                 k++;
             }
         }
-          System.out.println("Length of Subarray Window : "+k);
-
-        // calculate the count > B for the first window
-        int ans=Integer.MIN_VALUE; int count=0;
-
-        for(int i=0;i<k;i++){
-            if(nums[i]>B)
-                count++;
-        }
-        ans=count;
-
-        // Consider remaining Windows
-        int start=1; int end=k;
         
-        while(end<n){
-           if(nums[end]>B){
-            count++;
-           }
-           if(nums[start-1]>B){
-            count--;
-           }
-
-           start++;end++;
+        if (k == 0) {
+            System.out.println("No elements are <= " + B + ". Minimum Swaps: 0");
+            return;
         }
-        System.out.println(ans);
+        
+        System.out.println("Original Array: " + java.util.Arrays.toString(nums));
+        System.out.println("Threshold (B): " + B);
+        System.out.println("Length of Subarray Window (k) : " + k); // k = 3
+        
+        // --- 2. Calculate "Bad" Count for the First Window ---
+        // 'count' tracks the number of bad elements (> B) in the current window.
+        int currentBadCount = 0;
+        for(int i = 0; i < k; i++){
+            if(nums[i] > B) {
+                currentBadCount++;
+            }
+        }
+        
+        // 'minSwaps' is initialized to the count of the first window.
+        // It tracks the minimum number of bad elements found across all windows.
+        int minSwaps = currentBadCount; 
+        
+        // --- 3. Slide the Window and Update Minimum ---
+        int start = 1;
+        int end = k; 
+        
+        while(end < n){
+            // a) Element Leaving (at index start - 1): Check if it was a BAD element
+            if(nums[start - 1] > B){
+                currentBadCount--;
+            }
 
+            // b) Element Entering (at index end): Check if it is a BAD element
+            if(nums[end] > B){
+                currentBadCount++;
+            }
+            
+            // Update the overall minimum swaps found so far
+            minSwaps = Math.min(minSwaps, currentBadCount);
+            
+            // Slide the window indices
+            start++;
+            end++;
+        }
+        
+        System.out.println("The Overall Minimum Swaps Required is: " + minSwaps);
     }
 }

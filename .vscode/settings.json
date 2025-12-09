@@ -1,8 +1,9 @@
 {
+    "java.project.sourcePaths": ["."],
     "editor.suggest.showWords": false,
     "editor.suggest.showClasses": false,
     "editor.suggest.showFunctions": false,
-    "editor.suggest.showKeywords": true,
+    "editor.suggest.showKeywords": false,
     "editor.suggest.showSnippets": false,
     "editor.suggest.showMethods": true,
     "editor.quickSuggestions": {
@@ -12,7 +13,8 @@
     },
     "editor.inlineSuggest.enabled": false,
     "github.copilot.enable": "disabled",
-    "github.copilot.editor.enableAutoCompletions": false,
-    "github.copilot.editor.enableAutoCompletionsForAllLanguages": false,
-    "github.copilot.inlineSuggest.enable": false
+    "github.copilot.editor.enableAutoCompletions": true,
+    "github.copilot.editor.enableAutoCompletionsForAllLanguages": true,
+    "github.copilot.inlineSuggest.enable": true
+    
 }

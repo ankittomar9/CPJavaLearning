@@ -13,7 +13,6 @@ public class HashMapAddRemovePrint {
 
         hm.remove(3);
        // hm.remove(hm.values(50)); Not Allowed
-
         System.out.println("Removed a key value pair \n"+hm);
         
 

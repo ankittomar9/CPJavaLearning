@@ -10,20 +10,24 @@ public class Arrays_Subarray_max_Sum_Prefix_sum {
     int start=0;int end=k-1;int ans=Integer.MIN_VALUE;
         int n=nums.length;
         //calculate prefix sum
-        int[] pf=new int[n];
-        int pf_sum=0;
-        for(int i=0;i<n;i++){
-            pf_sum=pf_sum+nums[i];
-            pf[i]=pf_sum;
+        int[] pf_sum=new int[n];
+        // int pf_sum=0;
+        // for(int i=0;i<n;i++){
+        //     pf_sum=pf_sum+nums[i];
+        //     pf[i]=pf_sum;
+        // }
+         pf_sum[0]=nums[0];
+        for(int i=1;i<n;i++){
+            pf_sum[i]=pf_sum[i-1]+nums[i];
         }
         
-        System.out.println(Arrays.toString(pf));
+        System.out.println(Arrays.toString(pf_sum));
         while(end<n){
             int sum=0;
             if(start==0){
-                sum=pf[end];
+                sum=pf_sum[end];
             }else{
-                sum=pf[end]-pf[start-1];
+                sum=pf_sum[end]-pf_sum[start-1];
                         }
              System.out.println("Subarray Sum from index "+start+" to "+end+" : " + sum);
             if(sum>ans){

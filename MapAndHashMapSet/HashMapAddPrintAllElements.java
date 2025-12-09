@@ -5,6 +5,7 @@ import java.util.Map; // Import Map for Map.entry and Map.ofEntries
 
 public class HashMapAddPrintAllElements {
     public static void main(String args[]){
+       //Traditional HashMap
         HashMap<Integer,Integer> hm=new HashMap<>();
         hm.put(1,10);
         hm.put(2,20);
@@ -13,6 +14,8 @@ public class HashMapAddPrintAllElements {
         hm.put(5,50);
 
         System.out.println("HashMap :\n "+hm);
+
+
         // Using Map.ofEntries to initialize with multiple key-value pairs (Java 9+)
         // This creates an immutable Map, which is then passed to the HashMap constructor to make it mutable.
         HashMap<Integer,Integer> hm1 = new HashMap<>(Map.ofEntries(

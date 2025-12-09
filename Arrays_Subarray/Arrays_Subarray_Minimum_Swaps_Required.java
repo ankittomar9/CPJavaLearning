@@ -1,3 +1,4 @@
+package Arrays_Subarray;
 public class Arrays_Subarray_Minimum_Swaps_Required {
     public static void main(String args[]){
         int nums[] = {1, 12, 10, 3, 14, 10, 5};

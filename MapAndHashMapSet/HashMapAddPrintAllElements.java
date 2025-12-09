@@ -24,7 +24,6 @@ public class HashMapAddPrintAllElements {
         // hm1.put(10, 2);
         // hm1.put(11, 22);
         // hm1.put(12, 32);
-
         System.out.println("HashMap hm1 :\n "+hm1); // Add a print statement for hm1
     }
     

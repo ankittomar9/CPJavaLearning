@@ -1,3 +1,4 @@
+package Intermediate1.Arrays;
 public class Arrays_Minimum_Picks {
     public static void main(String args[]){
         int arr[]={5,17,100,1};
@@ -8,7 +9,6 @@ public class Arrays_Minimum_Picks {
                 max_even = Math.max(max_even, arr[i]);
              
             }
-
             if(arr[i]%2!=0){
                    min_odd=Math.min(min_odd, arr[i]);
             

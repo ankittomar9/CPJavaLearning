@@ -1,4 +1,4 @@
-
+package Intermediate1.Arrays;
 import java.util.Arrays;
 
 public class Arrays_InPlace_Prefix_Sum {

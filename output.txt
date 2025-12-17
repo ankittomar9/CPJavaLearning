@@ -1,2 +1,1 @@
-Equlibrium index found at index 4
-Left Sum : 10 == Right Sum 10
+tagret found at  : 7

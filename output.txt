@@ -1,3 +1,2 @@
-0
-Equlibrium index found at index 3
-Left Sum : -1 == Right Sum -1
+[1, 2, 3, 4]
+[24, 12, 8, 6]

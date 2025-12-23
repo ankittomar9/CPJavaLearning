@@ -5,6 +5,7 @@ import java.util.Arrays;
 public class Q_1_BubbleSort {
     public static void main(String args[]){
         int nums[]={5,1,4,2,8};
+        //what if array is sorted
 
           System.out.println("Before sorting : "+Arrays.toString(nums));
           BubbleSortFunc(nums);

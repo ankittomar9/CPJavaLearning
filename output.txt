@@ -1,2 +1,4 @@
-Before sorting : [5, 1, 4, 2, 8]
-after sorting : [1, 2, 4, 5, 8]
+Before Sort: 
+[5, 1, 4, 2, 8]
+ After Sort :
+ [1, 2, 4, 5, 8]

@@ -1,1 +1,6 @@
-Result: [24, 12, 8, 6]
+10 pushed in to stack
+20 pushed in to stack
+30 pushed in to stack
+Top element is : 30
+Top element is Popped: 30
+Top element After Pop : 20

@@ -1,4 +1,4 @@
-package MapAndHashMapSet;
+package BasicDSAImplemetations.HashMaps;
 import java.util.HashMap;
 import java.util.Map; // Import Map for Map.entry and Map.ofEntries
 public class HashMapAddPrintAllElements {

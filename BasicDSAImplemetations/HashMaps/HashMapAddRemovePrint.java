@@ -1,4 +1,4 @@
-package MapAndHashMapSet;
+package BasicDSAImplemetations.HashMaps;
 
 import java.util.HashMap;
 

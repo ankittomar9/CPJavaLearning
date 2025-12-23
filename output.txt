@@ -1,16 +1,2 @@
-10 pushed in to stack
-20 pushed in to stack
-30 pushed in to stack
-Elements are Pushed 
- 
-Top element is : 30
-Top element is Popped: 30
-Top element After Pop : 20
-Is Stack empty: false
-Top element is Popped: 20
-Top element After Pop : 10
-Is Stack empty: false
-Top element is Popped: 10
-Stack is Empty 
-Top element After Pop : -1
-Is Stack empty: true
+Invalid: Mismatched pair ( and ]
+String is Invalid

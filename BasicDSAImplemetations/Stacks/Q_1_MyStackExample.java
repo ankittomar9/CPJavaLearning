@@ -6,9 +6,21 @@ public class Q_1_MyStackExample {
         stack.push(20);
         stack.push(30);
 
+         System.out.println("Elements are Pushed \n ");
+
         System.out.println("Top element is : "+stack.peek());
          System.out.println("Top element is Popped: "+stack.pop());
-            System.out.println("Top element After Pop : "+stack.peek());
+        System.out.println("Top element After Pop : "+stack.peek());
+         System.out.println("Is Stack empty: "+stack.isEmpty());
+
+          System.out.println("Top element is Popped: "+stack.pop());
+        System.out.println("Top element After Pop : "+stack.peek());
+         System.out.println("Is Stack empty: "+stack.isEmpty());
+
+          System.out.println("Top element is Popped: "+stack.pop());
+        System.out.println("Top element After Pop : "+stack.peek());
+         System.out.println("Is Stack empty: "+stack.isEmpty());
+            
            
     }
     public static class MyStack{

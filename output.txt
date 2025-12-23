@@ -1,2 +1,2 @@
-Invalid: Mismatched pair ( and ]
-String is Invalid
+Before sorting : [5, 1, 4, 2, 8]
+after sorting : [1, 2, 4, 5, 8]

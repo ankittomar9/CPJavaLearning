@@ -1,2 +1,5 @@
-Before Sorting[5, 1, 4, 2, 8]
-After Sorting[1, 2, 4, 5, 8]
+Ankit is Studying DSA
+k
+Reversed String : [A, S, D,  , g, n, i, y, d, u, t, S,  , s, i,  , t, i, k, n, A]
+Reversed String : 2 
+ASD gniydutS si tiknA

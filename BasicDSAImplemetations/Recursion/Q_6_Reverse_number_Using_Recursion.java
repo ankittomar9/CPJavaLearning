@@ -5,7 +5,8 @@ public class Q_6_Reverse_number_Using_Recursion {
         int n=1234;
         //Expected output=4321
 
-        //System.out.println("Reverse Number is " );
+        System.out.println("Reverse Number is " );
+        ReverseHelper(n);
                
 
     }
@@ -14,10 +15,11 @@ public class Q_6_Reverse_number_Using_Recursion {
         if(n==0){
             return;
         }
-       
-       System.out.println(n+" ");
-        n=n%10;
-        ReverseHelper(n/10);
+         int y=n%10;  //extract  
+         System.out.print(y+""); //Print
+          // reduce and call again with reduce
+         int z=n/10;
+        ReverseHelper(z);  //call
     }
     
 }

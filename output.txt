@@ -1,6 +1,6 @@
---- Printing N to 1 ---
-5 
-4 
-3 
-2 
+--- Printing 1 to N ---
 1 
+2 
+3 
+4 
+5 

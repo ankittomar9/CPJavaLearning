@@ -1,4 +1,6 @@
-Before Sort: 
-[5, 1, 4, 2, 8]
- After Sort :
- [1, 2, 4, 5, 8]
+--- Printing N to 1 ---
+5 
+4 
+3 
+2 
+1 

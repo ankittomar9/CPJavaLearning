@@ -1,1 +1,8 @@
-Result of 10^2 is: 100
+Original Array:
+[10, 80, 30, 90, 40]
+Pivot placed at index 2. Array state: [10, 30, 40, 90, 80]
+Pivot placed at index 1. Array state: [10, 30, 40, 90, 80]
+Pivot placed at index 3. Array state: [10, 30, 40, 80, 90]
+
+Sorted Array:
+[10, 30, 40, 80, 90]

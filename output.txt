@@ -1,2 +1,1 @@
-Power Function is 
-100
+Result of 10^2 is: 100

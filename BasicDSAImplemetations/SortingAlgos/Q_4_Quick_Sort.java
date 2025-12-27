@@ -37,7 +37,8 @@ public class Q_4_Quick_Sort {
         arr[i+1]=arr[high];
         arr[high]=temp;
         
-        System.out.println("Pivot placed at index " + (i+1) + ". Array state: " + Arrays.toString(arr));
+     //   System.out.println("Pivot placed at index " 
+     // + (i+1) + ". Array state: " + Arrays.toString(arr));
         return i+1;
     }
 }

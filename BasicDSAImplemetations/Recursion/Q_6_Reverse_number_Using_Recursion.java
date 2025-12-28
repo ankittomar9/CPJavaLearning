@@ -15,11 +15,11 @@ public class Q_6_Reverse_number_Using_Recursion {
         if(n==0){
             return;
         }
-         int y=n%10;  //extract  
-         System.out.print(y+""); //Print
+         int extract=n%10;  //extract  
+         System.out.print(extract+""); //Print
           // reduce and call again with reduce
-         int z=n/10;
-        ReverseHelper(z);  //call
+         int reduce=n/10;
+        ReverseHelper(reduce);  //call
     }
     
 }

@@ -12,9 +12,10 @@ public class Q_5_Sum_of_Digits {
         if(n==0){
             return 0;
         }
-        int lastDigit=n%10;
+        int lastDigit=n%10; //extract
+         int reduce=n/10;//reduce
         
-        return  lastDigit + Sum_of_Digits(n/10);
+        return  lastDigit + Sum_of_Digits(reduce);
 
     }
     

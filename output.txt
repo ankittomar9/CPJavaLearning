@@ -1,1 +1,2 @@
-target found 60 at 2
+Reverse Number is 
+4321

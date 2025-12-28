@@ -1,5 +1,1 @@
-Original Array:
-[10, 80, 30, 90, 40]
-
-Sorted Array:
-[10, 30, 40, 80, 90]
+target found 60 at 2

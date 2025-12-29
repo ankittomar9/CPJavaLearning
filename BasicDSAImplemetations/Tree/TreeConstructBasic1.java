@@ -1,4 +1,4 @@
-package Tree;
+package BasicDSAImplemetations.Tree;
 public class TreeConstructBasic1 {
     
     public static void main(String args[]){

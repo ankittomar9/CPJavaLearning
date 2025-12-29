@@ -6,7 +6,7 @@ public class Q_1_StringReverse {
         System.out.println(s1); 
          // don't need loop here why because 
         // s1 is not primitve datatype rather then a string class object
-        // char [] is different froms string
+        // char [] is different from string
         System.out.println(s1.charAt(2)); 
         //Strings are immutable 
         char string_arr[]=s1.toCharArray();

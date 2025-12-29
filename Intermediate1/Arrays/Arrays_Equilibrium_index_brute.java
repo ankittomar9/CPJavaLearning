@@ -1,3 +1,4 @@
+package Arrays;
 public class Arrays_Equilibrium_index_brute {
     public static void main(String args[]){
       int arr[]={-7, 1, 5, 2, -4, 3, 0};

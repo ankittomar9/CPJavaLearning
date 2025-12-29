@@ -1,3 +1,4 @@
+package Arrays;
 import java.util.Arrays;
 public class Arrays_Equlibrium_index_Optimized_prefix {
     public static void main(String args[]){

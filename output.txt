@@ -1,2 +1,4 @@
-Reverse Number is 
-4321
+Char Array reverse: 
+[e, l, b, a, t, u, m, m, m, I,  , e, r, a,  , g, n, i, r, t, S]
+ String revverse: 
+elbatummmI era gnirtS

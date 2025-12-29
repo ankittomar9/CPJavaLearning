@@ -1,3 +1,4 @@
+package Arrays;
 import java.util.Arrays;
 
 public class Arrays_Prefix_sum_usingAuxiliaryArray {

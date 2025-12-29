@@ -1,4 +1,4 @@
-package Tree;
+package BasicDSAImplemetations.Tree;
 public class TreePostOrderTraversal {
     public static void main(String args[]){
          // Build the Tree: 50(root), 30(L), 70(R), 20(LL), 40(LR)

@@ -1,3 +1,4 @@
+package Arrays;
 public class Arrays_Equilibrium_Index_BruteForce {
     public static void main(String args[]){
         int arr[]={1,2,3,4,8,10}; int n=arr.length;

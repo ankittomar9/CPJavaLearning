@@ -29,7 +29,7 @@ public class Q_5_Tree_Traversal_Pre_Order {
     public static void preOrderTraversal(TreeNode root){
         if(root==null){
             return;
-        }  // root left right Preorder  expected output  1 2 
+        }  // root left right Preorder  expected output  1 2 4 5 3 6
 
         System.out.print(root.data+ " ");
         preOrderTraversal(root.left);

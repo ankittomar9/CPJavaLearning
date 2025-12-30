@@ -1,7 +1,1 @@
-Move Disk 1 from A to C
-Move Disk 2 from A to B
-Move Disk 1 from C to B
-Move Disk 3 from A to C
-Move Disk 1 from B to A
-Move Disk 2 from B to C
-Move Disk 1 from A to C
+Trees are Identical

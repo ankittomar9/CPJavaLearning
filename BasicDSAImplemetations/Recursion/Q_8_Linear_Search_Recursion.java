@@ -4,18 +4,22 @@ public class Q_8_Linear_Search_Recursion {
     public static void main(String args[]){
         int arr[]={4,1,3,7,6};
         int target=7;
-        boolean isCheck=LinearSearchHelper(arr,0,target);
-        System.out.println("Linear Search Target Exists "+isCheck);
+        int  isCheck=LinearSearchHelper(arr,0,target);
+        if(isCheck!=-1){
+               System.out.println("Linear Search Target Exists At  "+isCheck);
+        }else{
+             System.out.println("Linear Search Target Not Exists "+isCheck);
+        }
 
     }
 
-    public static boolean LinearSearchHelper(int arr[],int index,int target){
+    public static int LinearSearchHelper(int arr[],int index,int target){
         int i=index;  
         if(i==arr.length){
-            return false;
+            return -1;
         }
         if(arr[i]==target){
-            return true;
+            return index;
         }
         return LinearSearchHelper(arr,i+1,target);
 

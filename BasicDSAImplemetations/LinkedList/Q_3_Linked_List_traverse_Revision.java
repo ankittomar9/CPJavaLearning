@@ -9,6 +9,7 @@ public class Q_3_Linked_List_traverse_Revision {
 
         Node head=node; // Save the head head lost question lost list lost
         Node temp=head; // Node temp=node;
+        
 
         while(temp!=null){
             System.out.print(temp.data+" ");

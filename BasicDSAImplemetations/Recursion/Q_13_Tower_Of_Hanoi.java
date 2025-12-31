@@ -7,7 +7,7 @@ public class Q_13_Tower_Of_Hanoi {
         Tower_Hanoi_Solver(n,"A","B","C");
     }
 
-    public static void Tower_Hanoi_Solver(int n,String src,String helper,String dest){
+ public static void Tower_Hanoi_Solver(int n,String src,String helper,String dest){
 
         if(n==1){
              System.out.println("Move Disk 1 from "+src + " to "+ dest);

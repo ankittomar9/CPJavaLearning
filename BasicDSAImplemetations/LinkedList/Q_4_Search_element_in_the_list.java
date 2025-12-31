@@ -13,7 +13,7 @@ public class Q_4_Search_element_in_the_list {
         boolean isFound =false;
 
   //        System.out.println(temp.data); debug value here is 10 which correct
-            // not going inside the loop i don't why 
+           
         while(temp != null){   // stopping condition
             if(temp.data==target){   //value search
                   System.out.println(temp.data);  //just printing

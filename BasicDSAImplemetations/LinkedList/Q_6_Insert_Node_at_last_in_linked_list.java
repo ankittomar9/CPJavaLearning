@@ -10,17 +10,19 @@ public class Q_6_Insert_Node_at_last_in_linked_list {
         Node head=node;
         Node temp=head;
 
-        Node newNode=new Node(5);
+       Node newNode=new Node(50);
 
-
-        while(temp!=null){
-            System.out.println(temp.next+" ");
-
+        while(temp.next!=null){ // this will go from 10 to 40 and after 40 we have null
+            System.out.print(temp.data+" ");
+              temp=temp.next;
         }
-        temp=temp.next;
+       temp.next=newNode;
 
-
-
+        while(temp.next!=null){ // this will go from 10 to 40 and after 40 we have null
+            System.out.print(temp.data+" -> ");
+              temp=temp.next;
+        }
+         System.out.print(" null ");
     }
 
     public static class Node{

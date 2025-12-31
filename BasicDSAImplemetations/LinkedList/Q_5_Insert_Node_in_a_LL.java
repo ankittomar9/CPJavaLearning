@@ -25,10 +25,7 @@ public class Q_5_Insert_Node_in_a_LL {
             System.out.print(temp.data + " -> ");
            temp=temp.next;
         }
-    
-    
     }
-
 
     public static class Node{
         int data;

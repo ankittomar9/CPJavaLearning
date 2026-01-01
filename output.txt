@@ -1,1 +1,11 @@
-70 60 50 40 30 20 10 
+Initial max value : 
+-2147483648
+
+Initial min value : 
+2147483647
+
+Final max value : 
+99
+
+Final min value : 
+5

@@ -1,5 +1,2 @@
-Element Found at 2
-
-Linear Search with while Loop is below  
-
-Element Found at 2
+80
+Element exist at : 4

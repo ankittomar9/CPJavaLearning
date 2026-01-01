@@ -29,8 +29,8 @@ public class Q_4_Array_Linear_Search_Loop {
             }
             a++;
         }
-             if(isFound==true){
-                System.out.println("Element Found at "+index);
+             if(isWhileFound==true){
+                System.out.println("Element Found at "+newIndex);
             }else{
                   System.out.println("Element not Exist ");
             }

@@ -1,5 +1,4 @@
 package BasicDSAImplemetations.Array;
-
 public class Q_4_Array_Linear_Search_Loop {
     public static void main(String args[]){
         int nums[]={10,50,30,70,80,20};

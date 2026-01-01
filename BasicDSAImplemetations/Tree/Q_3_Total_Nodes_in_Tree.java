@@ -1,4 +1,4 @@
-package BasicDSAImplemetations.Tree;
+package basicDSAImplemetations.Tree;
 
 public class Q_3_Total_Nodes_in_Tree {
     public static void main(String args[]){

@@ -1,4 +1,4 @@
-package BasicDSAImplemetations.Strings.Basics;
+package basicDSAImplemetations.Strings.Basics;
 import java.util.Arrays;
 public class Q_1_StringReverse {
     public static void main(String args[]){

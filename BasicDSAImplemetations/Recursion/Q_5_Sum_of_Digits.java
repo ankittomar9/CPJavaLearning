@@ -1,4 +1,4 @@
-package BasicDSAImplemetations.Recursion;
+package basicDSAImplemetations.Recursion;
 
 public class Q_5_Sum_of_Digits {
     public static void main(String args[]){

@@ -1,4 +1,4 @@
-package BasicDSAImplemetations.Recursion;
+package basicDSAImplemetations.Recursion;
 
 public class Q_8_Linear_Search_Recursion {
     public static void main(String args[]){

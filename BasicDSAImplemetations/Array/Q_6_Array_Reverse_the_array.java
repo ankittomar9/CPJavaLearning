@@ -1,4 +1,4 @@
-package BasicDSAImplemetations.Array;
+package basicDSAImplemetations.array;
 
 import java.util.Arrays;
 

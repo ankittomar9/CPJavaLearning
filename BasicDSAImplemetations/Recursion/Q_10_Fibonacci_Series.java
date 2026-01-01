@@ -1,4 +1,4 @@
-package BasicDSAImplemetations.Recursion;
+package basicDSAImplemetations.Recursion;
 
 public class Q_10_Fibonacci_Series {
     public static void main(String args[]){

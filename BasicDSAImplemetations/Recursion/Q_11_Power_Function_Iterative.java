@@ -1,4 +1,4 @@
-package BasicDSAImplemetations.Recursion;
+package basicDSAImplemetations.Recursion;
 
 public class Q_11_Power_Function_Iterative {
     public static void main(String args[]){

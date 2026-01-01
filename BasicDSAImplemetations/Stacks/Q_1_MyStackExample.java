@@ -1,4 +1,4 @@
-package BasicDSAImplemetations.Stacks;
+package basicDSAImplemetations.Stacks;
 public class Q_1_MyStackExample {
     public static void main(String args[]){
         MyStack stack=new MyStack(5);

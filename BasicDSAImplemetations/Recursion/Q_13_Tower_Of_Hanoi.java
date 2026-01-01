@@ -1,4 +1,4 @@
-package BasicDSAImplemetations.Recursion;
+package basicDSAImplemetations.Recursion;
 
 public class Q_13_Tower_Of_Hanoi {
     public static void main(String args[]){

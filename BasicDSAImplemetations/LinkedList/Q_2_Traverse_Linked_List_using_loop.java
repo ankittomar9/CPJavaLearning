@@ -1,4 +1,4 @@
-package BasicDSAImplemetations.LinkedList;
+package basicDSAImplemetations.LinkedList;
 
 public class Q_2_Traverse_Linked_List_using_loop {
     

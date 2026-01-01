@@ -1,4 +1,4 @@
-package BasicDSAImplemetations.BinarySearch;
+package basicDSAImplemetations.BinarySearch;
 
 public class BinarySearchSqrt {
     public static void main(String args[]){

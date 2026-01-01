@@ -1,8 +1,11 @@
-package BasicDSAImplemetations.Array;
+package basicDSAImplemetations.array;
 
 public class Q_2_Array_Sum_Average_using_traditional_Loop {
     public static void main(String args[]){
+        //Q_2_Array_Sum_Average_using_traditional_Loop
+
         int nums[]={1,2,3,4,5};
+
         int sum=0; double average=0;
         for(int i=0;i<nums.length;i++){
             sum=sum+nums[i];

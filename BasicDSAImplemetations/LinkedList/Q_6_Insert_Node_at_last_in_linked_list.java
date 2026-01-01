@@ -1,4 +1,4 @@
-package BasicDSAImplemetations.LinkedList;
+package basicDSAImplemetations.LinkedList;
 
 public class Q_6_Insert_Node_at_last_in_linked_list {
     public static void main(String args[]){

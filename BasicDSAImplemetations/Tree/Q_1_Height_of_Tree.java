@@ -1,4 +1,4 @@
-package BasicDSAImplemetations.Tree;
+package basicDSAImplemetations.Tree;
 
 public class Q_1_Height_of_Tree {
     public static void main(String args[]){

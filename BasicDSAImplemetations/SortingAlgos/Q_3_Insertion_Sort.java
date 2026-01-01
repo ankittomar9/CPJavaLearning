@@ -1,4 +1,4 @@
-package BasicDSAImplemetations.SortingAlgos;
+package basicDSAImplemetations.SortingAlgos;
 import java.util.Arrays;
 public class Q_3_Insertion_Sort {
     public static void main(String args[]){

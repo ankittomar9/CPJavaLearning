@@ -1,4 +1,4 @@
-package BasicDSAImplemetations.Tree;
+package basicDSAImplemetations.Tree;
 
 public class Q_7_Tree_traversal_Post_Order {
     public static void main(String args[]){

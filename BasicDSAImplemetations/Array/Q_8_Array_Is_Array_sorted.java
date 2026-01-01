@@ -1,4 +1,4 @@
-package BasicDSAImplemetations.Array;
+package basicDSAImplemetations.array;
 
 public class Q_8_Array_Is_Array_sorted {
     public static void main(String args[]){

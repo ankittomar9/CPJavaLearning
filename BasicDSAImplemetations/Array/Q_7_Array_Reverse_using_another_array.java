@@ -1,4 +1,4 @@
-package BasicDSAImplemetations.Array;
+package basicDSAImplemetations.array;
 
 public class Q_7_Array_Reverse_using_another_array {
     public static void main(String args[]){

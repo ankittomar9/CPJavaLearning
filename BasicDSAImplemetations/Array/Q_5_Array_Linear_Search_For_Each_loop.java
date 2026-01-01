@@ -1,4 +1,4 @@
-package BasicDSAImplemetations.Array;
+package basicDSAImplemetations.array;
 
 public class Q_5_Array_Linear_Search_For_Each_loop {
     public static void main(String args[]){
@@ -22,8 +22,6 @@ public class Q_5_Array_Linear_Search_For_Each_loop {
                  System.out.println("Element doesn't exist  : ");
         }
        
-
-
     }
     
 }

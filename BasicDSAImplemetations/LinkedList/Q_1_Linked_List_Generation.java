@@ -1,4 +1,4 @@
-package BasicDSAImplemetations.LinkedList;
+package basicDSAImplemetations.LinkedList;
 
 public class Q_1_Linked_List_Generation {
     public static void main(String args[]){

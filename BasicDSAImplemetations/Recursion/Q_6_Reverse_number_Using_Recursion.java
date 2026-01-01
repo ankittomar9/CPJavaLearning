@@ -1,4 +1,4 @@
-package BasicDSAImplemetations.Recursion;
+package basicDSAImplemetations.Recursion;
 
 public class Q_6_Reverse_number_Using_Recursion {
     public static void main(String args[]){

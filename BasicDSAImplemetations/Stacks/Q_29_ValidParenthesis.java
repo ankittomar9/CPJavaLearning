@@ -1,4 +1,4 @@
-package BasicDSAImplemetations.Stacks;
+package basicDSAImplemetations.Stacks;
 import java.util.Stack;
 
 public class Q_29_ValidParenthesis {

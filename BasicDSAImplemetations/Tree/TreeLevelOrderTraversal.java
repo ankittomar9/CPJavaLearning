@@ -1,4 +1,4 @@
-package BasicDSAImplemetations.Tree;
+package basicDSAImplemetations.Tree;
 import java.util.LinkedList;
 import java.util.Queue;
 

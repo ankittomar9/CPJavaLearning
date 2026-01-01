@@ -1,4 +1,4 @@
-package BasicDSAImplemetations.SortingAlgos;
+package basicDSAImplemetations.SortingAlgos;
 import java.util.Arrays;
 public class Q_5_MergeSort {
     public static void main(String args[]){

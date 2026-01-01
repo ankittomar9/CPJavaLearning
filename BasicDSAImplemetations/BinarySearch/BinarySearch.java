@@ -1,4 +1,4 @@
-package BasicDSAImplemetations.BinarySearch;
+package basicDSAImplemetations.BinarySearch;
 
 public class BinarySearch {
     public static void main(String args[]){

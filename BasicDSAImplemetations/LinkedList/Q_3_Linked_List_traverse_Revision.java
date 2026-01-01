@@ -1,4 +1,4 @@
-package BasicDSAImplemetations.LinkedList;
+package basicDSAImplemetations.LinkedList;
 
 public class Q_3_Linked_List_traverse_Revision {
     public static void main(String args[]){

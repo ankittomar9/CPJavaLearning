@@ -1,4 +1,4 @@
-package BasicDSAImplemetations.Recursion;
+package basicDSAImplemetations.Recursion;
 
 public class Q_7_Check_Array_is_sorted_using_Recursion {
     public static void main(String args[]){

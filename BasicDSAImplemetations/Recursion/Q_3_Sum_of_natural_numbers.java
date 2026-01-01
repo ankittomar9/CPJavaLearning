@@ -1,4 +1,4 @@
-package BasicDSAImplemetations.Recursion;
+package basicDSAImplemetations.Recursion;
 
 public class Q_3_Sum_of_natural_numbers {
     public static void main(String args[]){

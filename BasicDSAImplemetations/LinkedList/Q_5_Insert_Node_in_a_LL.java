@@ -1,4 +1,4 @@
-package BasicDSAImplemetations.LinkedList;
+package basicDSAImplemetations.LinkedList;
 
 public class Q_5_Insert_Node_in_a_LL {
     public static void main(String args[]){

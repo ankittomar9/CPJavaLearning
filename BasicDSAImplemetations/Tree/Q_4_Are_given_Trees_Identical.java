@@ -1,4 +1,4 @@
-package BasicDSAImplemetations.Tree;
+package basicDSAImplemetations.Tree;
 
 public class Q_4_Are_given_Trees_Identical {
     public static void main(String args[]){

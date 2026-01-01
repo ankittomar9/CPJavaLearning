@@ -1,4 +1,4 @@
-package BasicDSAImplemetations.Array;
+package basicDSAImplemetations.array;
 
 public class Q_9_Array_Find_max_min_element_array {
     public static void main(String args[]){

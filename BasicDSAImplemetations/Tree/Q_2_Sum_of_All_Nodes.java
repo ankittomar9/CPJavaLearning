@@ -1,4 +1,4 @@
-package BasicDSAImplemetations.Tree;
+package basicDSAImplemetations.Tree;
 
 public class Q_2_Sum_of_All_Nodes {
     public static void main(String args[]){

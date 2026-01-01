@@ -1,4 +1,4 @@
-package BasicDSAImplemetations.Recursion;
+package basicDSAImplemetations.Recursion;
 
 public class Q_9_BinarySearch_Using_Recursion {
     public static void main(String args[]){

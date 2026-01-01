@@ -1,6 +1,7 @@
-package BasicDSAImplemetations.Array;
+package basicDSAImplemetations.array;
 public class Q_4_Array_Linear_Search_Loop {
     public static void main(String args[]){
+        //Q_4_Array_Linear_Search_Loop
         int nums[]={10,50,30,70,80,20};
         int target=30;
         boolean isFound=false; int index=0;
@@ -11,16 +12,13 @@ public class Q_4_Array_Linear_Search_Loop {
                 break;
             }               
         }
-            if(isFound==true){
+          if(isFound==true){
                 System.out.println("Element Found at "+index);
             }else{
                   System.out.println("Element not Exist ");
             }
-
           System.out.println("\nLinear Search with while Loop is below  \n");
-
         int a=0;int b=nums.length; boolean isWhileFound=false; int newIndex=0;
-
         while(a<b){
             if(nums[a]==target){
                 newIndex=a;

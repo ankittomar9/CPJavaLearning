@@ -1,1 +1,4 @@
-10 20 30 40 ->  null 
+Sum is 
+15
+Average is 
+3.0

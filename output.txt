@@ -1,4 +1,5 @@
-Sum is 
-15
-Average is 
-3.0
+Element Found at 2
+
+Linear Search with while Loop is below  
+
+Element Found at 2

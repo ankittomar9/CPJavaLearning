@@ -1,4 +1,4 @@
-package basicDSAImplemetations.array;
+package BasicDSAImplemetations.Array;
 
 public class Q_1_Array_print_all_elements_using_loops {
     public static void main(String args[]){
@@ -9,7 +9,6 @@ public class Q_1_Array_print_all_elements_using_loops {
         for(int i=0;i<nums.length;i++){
             System.out.print(nums[i]+" ");
         }
-
         System.out.println();
         int a=0;int b=nums.length-1;
         while(a<=b){
@@ -20,8 +19,6 @@ public class Q_1_Array_print_all_elements_using_loops {
             for(int variable: nums){
                  System.out.print(variable +" ");
             }
-
-        
     }
     
 }

@@ -1,4 +1,4 @@
-package basicDSAImplemetations.array;
+package BasicDSAImplemetations.Array;
 public class Q_4_Array_Linear_Search_Loop {
     public static void main(String args[]){
         //Q_4_Array_Linear_Search_Loop
@@ -10,7 +10,7 @@ public class Q_4_Array_Linear_Search_Loop {
                 index=i;
                 isFound=true;
                 break;
-            }               
+            }              
         }
           if(isFound==true){
                 System.out.println("Element Found at "+index);
@@ -31,9 +31,6 @@ public class Q_4_Array_Linear_Search_Loop {
                 System.out.println("Element Found at "+newIndex);
             }else{
                   System.out.println("Element not Exist ");
-            }
-
-    
-    }
-    
+            }    
+    }    
 }

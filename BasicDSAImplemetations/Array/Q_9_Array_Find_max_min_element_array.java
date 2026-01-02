@@ -1,10 +1,10 @@
-package basicDSAImplemetations.array;
+package BasicDSAImplemetations.Array;
 
 public class Q_9_Array_Find_max_min_element_array {
     public static void main(String args[]){
+      // Q_9_Array_Find_max_min_element_array 
         int nums[]={10,50,99,5,20};
         int n=nums.length;
-
         int max=Integer.MIN_VALUE;
         int min=Integer.MAX_VALUE;
 
@@ -20,12 +20,8 @@ public class Q_9_Array_Find_max_min_element_array {
           if(nums[i]<min){
             min=nums[i];
           }
-
         }
           System.out.println("\nFinal max value : \n"+max); 
           System.out.println("\nFinal min value : \n"+min); 
-
-
-    }
-    
+    }    
 }

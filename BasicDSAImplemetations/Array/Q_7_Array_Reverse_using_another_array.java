@@ -1,9 +1,10 @@
-package basicDSAImplemetations.array;
+package BasicDSAImplemetations.Array;
 
 public class Q_7_Array_Reverse_using_another_array {
     public static void main(String args[]){
+        //Q_7_Array_Reverse_using_another_array
         int nums[]={10,20,30,40,50,60};
-
+        //This is appraoch not to do
         int waste_array_memory[]=new int[nums.length];
         int pointer=0;
 

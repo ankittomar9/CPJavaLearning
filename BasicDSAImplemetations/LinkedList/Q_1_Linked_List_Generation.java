@@ -1,4 +1,4 @@
-package basicDSAImplemetations.LinkedList;
+package BasicDSAImplemetations.LinkedList;
 
 public class Q_1_Linked_List_Generation {
     public static void main(String args[]){
@@ -7,10 +7,10 @@ public class Q_1_Linked_List_Generation {
             node.next.next=new Node(30);
             node.next.next.next=new Node(40);
 
-            System.out.print(node.data+ " ");
-            System.out.print(node.next.data+ " ");
-            System.out.print(node.next.next.data+ " ");
-              System.out.print(node.next.next.next.data+ " ");
+            System.out.print(node.data+ " -> ");
+            System.out.print(node.next.data+ " -> ");
+            System.out.print(node.next.next.data+ " -> ");
+              System.out.print(node.next.next.next.data+ "  ");
         
     }
 

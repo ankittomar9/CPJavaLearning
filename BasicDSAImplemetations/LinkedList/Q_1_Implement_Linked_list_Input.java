@@ -1,4 +1,4 @@
-package basicDSAImplemetations.LinkedList;
+package BasicDSAImplemetations.LinkedList;
 
 public class Q_1_Implement_Linked_list_Input {
    

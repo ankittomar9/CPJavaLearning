@@ -1,4 +1,4 @@
-package basicDSAImplemetations.LinkedList;
+package BasicDSAImplemetations.LinkedList;
 
 public class Q_2_Traverse_Linked_List_using_loop {
     
@@ -8,9 +8,11 @@ public class Q_2_Traverse_Linked_List_using_loop {
             node.next.next=new Node(30);
             node.next.next.next=new Node(40);
         
-        Node temp=node;
+            Node head=node;
+            Node temp=head;
+
         while(temp!=null){
-            System.out.print(temp.data+" ");
+            System.out.print(temp.data+" ->  ");
             temp=temp.next;
         }
 

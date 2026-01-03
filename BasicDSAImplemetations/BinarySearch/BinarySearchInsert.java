@@ -1,5 +1,4 @@
-package basicDSAImplemetations.BinarySearch;
-
+package BasicDSAImplemetations.BinarySearch;
 public class BinarySearchInsert {
     public static void main(String args[]){
         int arr[]={1,2,3,4,5,6,7,8,9,10,11,12,13,14,15};
@@ -7,7 +6,6 @@ public class BinarySearchInsert {
 
         BinarySearchFunc(arr,k);
     }
-    
    public static void  BinarySearchFunc(int arr[],int target){
     int n=arr.length; int low=0; int high=n-1;
             boolean isFound=false; 
@@ -25,13 +23,9 @@ public class BinarySearchInsert {
         else{
             high=high-1;
         }
-
     }
     if(isFound==false)
     System.out.println("Element needs to be inserted at "+low);
-
-
    }
-
 
 }

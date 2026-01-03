@@ -24,10 +24,8 @@ public class Q_10_Insert_New_Elements_in_Array {
  //           System.out.println(i);
             new_nums[i]=nums[i-1];
         }
-
         System.out.println("Modified Array after Insertion \n"+Arrays.toString(new_nums));
         
-
     }
     
 }

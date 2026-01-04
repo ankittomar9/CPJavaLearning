@@ -12,7 +12,7 @@ public class Q_2_Traverse_Linked_List_using_loop {
             Node temp=head;
 
         while(temp!=null){
-            System.out.print(temp.data+" ->  ");
+            System.out.print(temp.data+" -> ");
             temp=temp.next;
         }
 

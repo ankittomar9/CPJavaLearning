@@ -1,4 +1,4 @@
-package basicDSAImplemetations.LinkedList;
+package BasicDSAImplemetations.LinkedList;
 
 public class Q_4_Search_element_in_the_list {
     public static void main(String args[]){
@@ -11,18 +11,15 @@ public class Q_4_Search_element_in_the_list {
         Node  temp=head;
         int target =30;
         boolean isFound =false;
-
   //        System.out.println(temp.data); debug value here is 10 which correct
            
         while(temp != null){   // stopping condition
             if(temp.data==target){   //value search
                   System.out.println(temp.data);  //just printing
                 isFound=true;                    // flag reset
-                
                 break;                           // come out of loop                                
             }
                temp=temp.next;                  // move to next node
-            
         }
       
         if(isFound==true){

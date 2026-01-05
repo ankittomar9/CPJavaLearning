@@ -9,7 +9,6 @@ public class Q_10_reverse_a_linked_list {
         head.next.next.next.next = new Node(50);
           Node curr = head;
           Node temp=head;
-          
         // Original List
         System.out.println("Original:");
         while(temp != null){
@@ -17,12 +16,10 @@ public class Q_10_reverse_a_linked_list {
             temp = temp.next; 
         }
         System.out.println("null");
-     
         // Initalize empty nodes
         Node prev = null;
         Node forwardNode = null;
         
-
         while(curr != null){
               forwardNode = curr.next;  //save the future
               //             // 2. REWIRE backwards

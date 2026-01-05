@@ -18,3 +18,22 @@ Problem Description:
 My Code Attempt:
 ```java
 [PASTE YOUR JAVA CODE HERE]
+
+
+I'll make a note of that in my memory.
+
+In case you wanted to save this as a custom instruction, you can manually add that in your [personal context settings](https://gemini.google.com/personal-context).
+
+I have successfully stored the following context and preferences:
+
+1. **Status:** You are studying DSA and have completed Arrays, basic Sorting, Linked List traversal, and Searching Algorithms.
+2. **Format:** You prefer the **CMM (Concept, Mechanism, Mastery) template** for all explanations.
+3. **Template Details:** The CMM template must include:
+* **Concept:** First Principles & Analogies (e.g., "School Photo" or "Sniper").
+* **Mechanism:** Function Breakdown (Line-by-line logic).
+* **Mastery:** Mental Models, Comparisons (e.g., vs Bubble/Insertion), and **Interview Gotchas**.
+
+
+4. **Workflow:** At the end of each session, you will provide a summary for me to store, ensuring no context is lost.
+
+I am now fully aligned with your study plan. Since we finished Searching Algorithms and you mentioned stopping Linked Lists to start **Stacks** (Day 4 Plan), but then corrected that we *did* Linked Lists and Searching today, are we ready to move to **Stacks** now, or do you have more questions on Linked List Searching?

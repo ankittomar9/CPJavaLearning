@@ -1,4 +1,4 @@
-package basicDSAImplemetations.Recursion;
+package BasicDSAImplemetations.Recursion;
 
 public class Q_2_Print_1_to_N_numbers {
     public static void main(String args[]){

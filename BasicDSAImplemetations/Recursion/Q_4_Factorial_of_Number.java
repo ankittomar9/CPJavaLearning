@@ -1,4 +1,4 @@
-package basicDSAImplemetations.Recursion;
+package BasicDSAImplemetations.Recursion;
 
 public class Q_4_Factorial_of_Number {
     public static void main(String args[]){

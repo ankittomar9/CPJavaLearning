@@ -1,7 +1,5 @@
 package dsa_advance.array;
-
 import java.util.Arrays;
-
 public class Q_3_Array_Min_Max_brute {
     public static void main(String args[]){
         int arr[]={10,99,12,55,3,44};
@@ -20,7 +18,7 @@ public class Q_3_Array_Min_Max_brute {
             if(arr[i]<min){
                min=arr[i];
             }
-        }   
+                }   
          System.out.println("Minimum element is \n "+min);
 
         // Sort the array
@@ -30,6 +28,5 @@ public class Q_3_Array_Min_Max_brute {
 
          System.out.println("Maximum element sort \n "+max1);
            System.out.println("Minimum element sort \n "+min1);
-    }
-    
+    }    
 }

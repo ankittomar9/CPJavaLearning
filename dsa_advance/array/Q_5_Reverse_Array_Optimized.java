@@ -19,8 +19,5 @@ public static void main(String args[]){
         }
 
         System.out.println("Reversed Array: \n "+Arrays.toString(arr));
-    }
-
-
-    
+    }    
 }

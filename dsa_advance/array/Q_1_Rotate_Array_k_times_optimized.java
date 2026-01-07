@@ -1,10 +1,9 @@
 package dsa_advance.array;
-
 import java.util.Arrays;
 
 public class Q_1_Rotate_Array_k_times_optimized {
     public static void main(String[] args){
-        int arr[]={1,2,3,4};  // expected output is : 3 1 4 2
+        int arr[]={1,2,3,4};  // expected output is : 3 4 1 2
         System.out.println("Original : \n"+ Arrays.toString(arr));
 
         int n=arr.length;

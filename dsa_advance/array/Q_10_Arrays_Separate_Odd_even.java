@@ -1,5 +1,4 @@
 package dsa_advance.array;
-
 import java.util.Arrays;
 
 public class Q_10_Arrays_Separate_Odd_even {

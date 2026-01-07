@@ -1,4 +1,4 @@
-package basicDSAImplemetations.Recursion;
+package BasicDSAImplemetations.Recursion;
 
 public class Q_7_Check_Array_is_sorted_using_Recursion {
     public static void main(String args[]){
@@ -11,7 +11,7 @@ public class Q_7_Check_Array_is_sorted_using_Recursion {
 
     public static boolean  isArraySorted(int arr[],int index){
         int i=index; 
-        if(i==arr.length-1){
+        if(i==arr.length-1){  // base case
             return true;
         }
            
@@ -19,7 +19,7 @@ public class Q_7_Check_Array_is_sorted_using_Recursion {
             return false;
         }
 
-        return isArraySorted(arr,i+1);
+        return isArraySorted(arr,i+1); // recursive call
 
     }
     

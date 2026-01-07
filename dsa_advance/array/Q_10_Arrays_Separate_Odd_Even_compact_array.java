@@ -1,7 +1,5 @@
 package dsa_advance.array;
-
 import java.util.Arrays;
-
 public class Q_10_Arrays_Separate_Odd_Even_compact_array {
     public static void main(String args[]){
         int nums[]={1,10,5,1,3,15,6,12};
@@ -12,7 +10,6 @@ public class Q_10_Arrays_Separate_Odd_Even_compact_array {
                 even_length++;
             }
         }
-
         int odd_length=n-even_length;
         int even_nums[]=new int[even_length];
          int odd_nums[]=new int[odd_length];
@@ -28,10 +25,8 @@ public class Q_10_Arrays_Separate_Odd_Even_compact_array {
                  odd_count++;
             }
          }
-
          System.out.println("Original Array : \n "+Arrays.toString(nums));
          System.out.println("Even Array : \n "+Arrays.toString(even_nums));
          System.out.println("Odd Array : \n "+Arrays.toString(odd_nums));
     }
-    
 }

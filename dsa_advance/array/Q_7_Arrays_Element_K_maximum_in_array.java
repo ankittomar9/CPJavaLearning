@@ -1,5 +1,4 @@
 package dsa_advance.array;
-
 import java.util.Arrays;
 
 public class Q_7_Arrays_Element_K_maximum_in_array {
@@ -11,18 +10,15 @@ public class Q_7_Arrays_Element_K_maximum_in_array {
         int k=3; //check for k=10;
 
         boolean kExists=false;
-
         int count=0;
         for(int i=0;i<nums.length;i++){
             if(nums[i]==k){ // edge case
                 kExists=true;
             }
-           
             if(nums[i]>k){
                 nums[i]=-1;
                 count++;
-            }
-            
+            }    
         }
         if(kExists==true){
              System.out.println("Minimum Operations required \n"+count);
@@ -30,6 +26,5 @@ public class Q_7_Arrays_Element_K_maximum_in_array {
         }else{
             System.out.println("k doesn't exists in array "+"-1");
         }
-}    
-
+    }    
 }

@@ -11,7 +11,7 @@ public class Q_6_Reverse_number_Using_Recursion {
     }
 
     public static void ReverseHelper(int n){
-        if(n==0){
+        if(n==0){   //base case
             return;
         }
          int extract=n%10;  //extract  

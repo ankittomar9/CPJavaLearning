@@ -4,34 +4,33 @@ public class Q_15_Arrays_Equilibrium_index_brute {
     public static void main(String args[]){
         int arr[]={-7,1,5,2,-4,3,0};
         //What is Equilibrium Index Index which has left sum and right sum equal
-        int left_sum=0;int right_sum=0;
-        int index=0; boolean isFound=false;
+        //Calculate left sum and right sum
+        //left sum range 0 to i-1 // right sum range i+1 to n-1
+            boolean isFound=false;
+        //Left sum
         for(int i=0;i<arr.length;i++){
-            index=i;
-            //reset sum everytime
-            left_sum=0;
-            //Calculate left sum
+               //Left sum
+            int leftSum=0;
             for(int j=0;j<i;j++){
-                      left_sum=left_sum+arr[j];
-                }
-                
-              //Calculate right sum
-              right_sum=0;
-             for(int j=i+1;j<arr.length;j++){
-                right_sum=right_sum+arr[j];
+                  leftSum=leftSum+arr[j];
             }
-            if(left_sum==right_sum){
-                System.out.println("Equilibrium Index Found at "+index);
-                System.out.println("Left sum : "+left_sum+" == Right sum :"+right_sum);
-                isFound= true;
+
+            //right sum
+            int rightSum=0;
+            for(int j=i+1;j<arr.length;j++){
+                rightSum+=arr[j];
+            }
+
+            if(leftSum==rightSum){
+                System.out.println("Equilibrium index found at "+i);
+                System.out.println("Left Sum "+leftSum+" == "+rightSum +" Right Sum");
+                isFound=true;
                 break;
             }
+          
         }
-         if(isFound==false){
-                 System.out.println("Equilibrium Index does not exist ");
-    
-         }
-         
+          if(isFound==false){
+                System.out.println("Equilibrium index Does not exists" );
+            }
     }
-    
 }

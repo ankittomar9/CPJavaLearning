@@ -18,11 +18,10 @@ public class Q_15_Arrays_equilibrium_index_Optimized_1 {
                 leftSum=0;
             }
             else{
-                leftSum=prefix_arr[i-1];
-            }
-
+                leftSum=prefix_arr[i-1];            }
             // right Sum 
-            int rightSum=0; int totalSum=prefix_arr[n-1];
+            int rightSum=0; 
+            int totalSum=prefix_arr[n-1];
             rightSum=totalSum-prefix_arr[i];
         
             if(leftSum==rightSum){
@@ -34,10 +33,6 @@ public class Q_15_Arrays_equilibrium_index_Optimized_1 {
         }   
        if(isFound==false){
          System.out.println("Equilibrium Index doesn't exists");
-       }         
-    
-
-        
-    }
-    
+       }                 
+    }    
 }

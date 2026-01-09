@@ -3,7 +3,7 @@ package dsa_advance.array;
 import java.util.Arrays;
 
 public class Q_16_Arrays_Product_Puzzle_Optimized {
-    //he Problem: Given an array nums of size n,
+    //the Problem: Given an array nums of size n,
     //  return an array res such that res[i] is equal to the product of all the elements of nums except nums[i].
     public static void main(String args[]){
         int arr[]={1,2,3,4}; int n=arr.length;

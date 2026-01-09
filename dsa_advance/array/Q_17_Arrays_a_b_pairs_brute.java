@@ -7,20 +7,20 @@ public class Q_17_Arrays_a_b_pairs_brute{
         String s1="dcabbaab";
             int ans=0;
         char arr[]=s1.toCharArray();
-       // System.out.println(Arrays.toString(arr));
+
         for(int i=0;i<arr.length;i++){
             if(arr[i]!='a'){
                 continue;
-            }  
-                for(int j=i+1;j<arr.length;j++){
-                    if(arr[j]=='b'){
-                         ans++;
-                    }
+            }
+            for(int j=i+1;j<arr.length;j++){
+                if(arr[j]=='b'){
+                    ans++;
                 }
             }
-            System.out.println(ans);
         }
-        
+        System.out.println("Count of pairs (a,b) can be formed: \n"+ans);
 
+
+        }
     }
 

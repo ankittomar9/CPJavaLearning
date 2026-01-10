@@ -6,8 +6,8 @@ public class Q_18_Arrays_Leaders_In_a_array_brute{
         int arr[]={16,17,4,3,5,2}; 
         int n=arr.length;
         //What is a Leader in Array
-        // An element is a Leader if it is strictly greater than all the elements to its right.
-        // is 16 leader no 16 is smaller than 17 , 17 is L because its greater than all elements 
+ // An element is a Leader if it is strictly greater than all the elements to its right.
+ // is 16 leader no 16 is smaller than 17 , 17 is L because its greater than all elements 
         List<Integer> list=new ArrayList<>();
         for(int i=0;i<n;i++){
               boolean isLeader=true;
@@ -21,6 +21,6 @@ public class Q_18_Arrays_Leaders_In_a_array_brute{
                    list.add(arr[i]);
          }
         }
-        System.out.println(list);
+        System.out.println("Elements which are Leaders are : \n"+list);
     }
 }

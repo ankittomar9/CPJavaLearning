@@ -18,7 +18,7 @@ public class Q_17_Arrays_a_b_pairs_optimized {
             ans=ans+count_of_a;
         }
        }
-       System.out.println("Count of pairs (a,b) can be formed: \n"+ans);
+ System.out.println("Count of pairs Optimized(a,b) can be formed: \n"+ans);
     }
     
 }

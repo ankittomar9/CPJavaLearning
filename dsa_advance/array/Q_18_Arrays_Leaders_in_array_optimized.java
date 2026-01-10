@@ -5,7 +5,8 @@ public class Q_18_Arrays_Leaders_in_array_optimized {
           int arr[]={16,17,4,3,5,2}; 
             int n=arr.length;
             //Since we are using Carry Forward technique what we want is 
-            //carry the max value from right think about why i know why because last element is always a leader
+            //carry the max value from right think about
+            //  why we know why because last element is always a leader
             int max_so_far=arr[n-1];
             int leaders_count=1;
           for(int i=n-2;i>=0;i--){

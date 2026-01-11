@@ -15,7 +15,7 @@ public class Q_23_Arrays_2D_add_matrices {
                 resultant_mat[i][j]=arr1[i][j]+arr2[i][j];
             }
           }
-
+          System.out.println("Matrix Sum");
           System.out.println(Arrays.deepToString(resultant_mat));
    
         }

@@ -15,7 +15,7 @@ public class Q_20_Arrays_2d_PrintingAll_elements {
                  System.out.print("\n");
             }
     
-            System.out.print("Using Inbuilt Function");
+            System.out.print("Using Inbuilt Function \n");
 
           System.out.print(Arrays.deepToString(arr));      
           //this prints 2D without the need to write the loops

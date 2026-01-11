@@ -14,7 +14,6 @@ public class Q_25_Arrays_2D_Minor_Diagonal_Sum {
             }
         }
         System.out.println("Sum of Minor Diagonal : \n"+sum);
-        
         //Using Single while Loop         //See dimensions of minor diagonal
         //(0 ,m-1),(n,m),(n-1,0)  (0,2),(1,1),(1,0)
         int i=0;int j=m-1; int new_sum=0;
@@ -30,5 +29,4 @@ public class Q_25_Arrays_2D_Minor_Diagonal_Sum {
       }
               System.out.println("Sum of Minor Diagonal : \n"+fast_Sum);
     }
-    
-}
+ }

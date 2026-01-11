@@ -9,7 +9,6 @@ public class Q_22_Arrays_2D_Column_wise_sum {
         //Expected output : col 2=2+5+8 sum=15
         //Expected output : col 3=3+6+9 sum=18
          //Expected output : col 4=4+7+10 sum=21
-   
         int n=arr.length;
         int m=arr[0].length;
         int col_sum=0;
@@ -21,8 +20,5 @@ public class Q_22_Arrays_2D_Column_wise_sum {
         }
         System.out.println("Column wise sum col "+j+" is : "+col_sum);
     }
-
-
     }
-    
 }

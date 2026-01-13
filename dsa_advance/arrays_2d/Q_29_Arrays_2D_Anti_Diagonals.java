@@ -1,7 +1,5 @@
 package dsa_advance.arrays_2d;
-
 import java.util.Arrays;
-
 public class Q_29_Arrays_2D_Anti_Diagonals {
     public static void main(String args[]){
         //This is for Square Matrix //Marking for Revision
@@ -17,7 +15,6 @@ public class Q_29_Arrays_2D_Anti_Diagonals {
       for(int c=0;c<n;c++){
         int startRow=0;int startCol=c;
         int colRes=0;
-
         while(startRow<n && startCol>=0){
             result[rowRes][colRes]=arr[startRow][startCol];
             startRow++;

@@ -1,7 +1,5 @@
 package dsa_advance.arrays_2d;
-
 import java.util.Arrays;
-
 public class Q_26_Arrays_2D_Matrix_Transpose {
     public static void main(String args[]){
          int arr[][]={{1,2,3},
@@ -22,6 +20,5 @@ public class Q_26_Arrays_2D_Matrix_Transpose {
         for(int[] row : arr) {
             System.out.println(Arrays.toString(row));
         }
-    }
-    
+    } 
 }

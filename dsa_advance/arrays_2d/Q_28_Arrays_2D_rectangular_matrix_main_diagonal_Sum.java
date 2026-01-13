@@ -15,7 +15,7 @@ public class Q_28_Arrays_2D_rectangular_matrix_main_diagonal_Sum {
         sum=sum+arr[i][i];
 
      }        
-     System.out.println(sum);  // 1 6 11  =18 
+     System.out.println("Sum of diagonal (rectangle) by limiting \n "+sum);  // 1 6 11  =18 
                     
     }
     

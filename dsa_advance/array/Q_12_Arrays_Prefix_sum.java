@@ -20,8 +20,8 @@ public class Q_12_Arrays_Prefix_sum {
              for(int i=1;i<arr.length;i++){
             arr[i]=arr[i-1]+arr[i];
         }
-          System.out.println("Prefix Array Original Array Modified ");
-          System.out.println("Prefix Array : \n"+Arrays.toString(arr));
+          System.out.println("\nPrefix Array Original Array Modified ");
+          System.out.println(" Prefix Array : \n"+Arrays.toString(arr));
 
 
 

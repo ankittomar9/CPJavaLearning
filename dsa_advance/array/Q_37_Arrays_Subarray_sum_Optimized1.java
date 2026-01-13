@@ -1,5 +1,4 @@
 package dsa_advance.array;
-
 public class Q_37_Arrays_Subarray_sum_Optimized1 {
     public static void main(String args[]){
         //Subarray sum optimized using prefix sum

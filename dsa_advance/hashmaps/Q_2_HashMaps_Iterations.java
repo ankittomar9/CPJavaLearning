@@ -1,8 +1,6 @@
 package dsa_advance.hashmaps;
-
 import java.util.HashMap;
 import java.util.Map;
-
 public class Q_2_HashMaps_Iterations {
     public static void main(String args[]){
         HashMap<String,Integer> map=new HashMap<>();
@@ -30,7 +28,6 @@ public class Q_2_HashMaps_Iterations {
         There is no concept of "Item #0" or "Item #1". There is only "Key X" and "Key Y".
         If you tried map.get(0), the map would look for a Key that is the integer 0.
         It would not give you the "first" item added. */
-
     }
     
 }

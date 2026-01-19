@@ -1,5 +1,4 @@
 package dsa_advance.hashmaps;
-
 import java.util.HashMap;
 import java.util.Iterator;
 import java.util.Map;
@@ -20,8 +19,7 @@ public class Q_3_HashMaps_element_Printing_Using_while_Iterator {
                 Map.Entry<String,Integer> entry=it.next();
                 
                    System.out.println("Key: " + entry.getKey() + ", Value: " + entry.getValue());
-            }
-
+           }
     }
     
 }

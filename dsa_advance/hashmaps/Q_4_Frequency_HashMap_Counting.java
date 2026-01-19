@@ -1,5 +1,6 @@
 package dsa_advance.hashmaps;
 import java.util.HashMap;
+
 public class Q_4_Frequency_HashMap_Counting {
     public static void main(String args[]){
          int arr[]={10,20,20,10,10,5,10,20};
@@ -13,7 +14,6 @@ public class Q_4_Frequency_HashMap_Counting {
             }else{
                 frequencyMap.put(variable, 1);
             }
-
 
              /* There is also a shorter way  of writing above code*/
         //   frequencyMap.put(variable, frequencyMap.getOrDefault(variable, 0)+1);

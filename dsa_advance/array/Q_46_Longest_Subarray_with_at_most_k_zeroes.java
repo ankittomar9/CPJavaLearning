@@ -7,7 +7,6 @@ public class Q_46_Longest_Subarray_with_at_most_k_zeroes {
         int arr[]={1, 1, 1, 0, 0, 0, 1, 1, 1, 1, 0}; int n=arr.length;
         int k=2;        int left=0; int max_Length=Integer.MIN_VALUE;
         int countZeroes=0;
-
             for(int right=0;right<n;right++){
                 if(arr[right]==0){
                     countZeroes++;
@@ -22,7 +21,6 @@ public class Q_46_Longest_Subarray_with_at_most_k_zeroes {
                 
                 max_Length=Math.max(max_Length, right-left+1);
             }
-
             if (max_Length == Integer.MIN_VALUE) {
                   System.out.println("No valid subarray == 0");
           } else {

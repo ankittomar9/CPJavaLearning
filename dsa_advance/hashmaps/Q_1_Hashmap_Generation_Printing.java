@@ -10,6 +10,7 @@ public class Q_1_Hashmap_Generation_Printing {
         map.put("Bob", 85);
         map.put("Charlie", 90);
         map.put(null,10); // think about this
+        map.put(null,20);// null be be overide only 1 null variable is allowed
 
           //Step  2: Accessing and printing 1 by 1 the key value pairs in Hashmap
         System.out.println("Value at this key "+map.get("Alice"));

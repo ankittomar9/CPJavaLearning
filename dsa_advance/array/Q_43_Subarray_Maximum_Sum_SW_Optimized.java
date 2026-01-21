@@ -3,7 +3,6 @@ package dsa_advance.array;
 public class Q_43_Subarray_Maximum_Sum_SW_Optimized {
     public static void main(String args[]){
           int arr[]={2,1,5,1,3,2}; int n=arr.length; int k=3;//window size is fixed
-
                 if(n==0 || n<k){
                 System.out.println("-1"); return;            }
             //step1: calculate sum of first window
@@ -18,11 +17,9 @@ public class Q_43_Subarray_Maximum_Sum_SW_Optimized {
 
                 if(currentSum>maxSum){
                     maxSum=currentSum;
-
                 }
                
             }
              System.out.println("Maximum Sum (Optimized): " + maxSum);
         }
-    
-}
+    }

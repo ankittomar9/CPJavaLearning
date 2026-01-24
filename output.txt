@@ -1,10 +1,3 @@
-<<<<<<< HEAD
-Maximum subarray sum is 
- 6
-Indices: (3, 6)
-=======
-Original : 
-[1, 2, 3, 4]
-Rotated 2 times : 
-[3, 4, 1, 2]
->>>>>>> 937130f405b5226d55130db407aad1d7e32fabc8
+Left Max: [4, 4, 4]
+Left Max: [4, 3, 3]
+Total Water Trapped: 3

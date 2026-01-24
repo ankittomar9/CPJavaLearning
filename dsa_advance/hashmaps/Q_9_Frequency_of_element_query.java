@@ -1,8 +1,8 @@
 package dsa_advance.hashmaps;
-
 import java.util.HashMap;
-
 public class Q_9_Frequency_of_element_query {
+    /*Problem Statement Given array A = {2, 5, 9, 2, 8} and query array B = {3, 2,8}. 
+    For each number in B, return how many times it appears in A */
     public static void main(String args[]){
         int arr1[]={2, 5, 9, 2, 8};
         int arr2[]={3, 2,8};

@@ -10,14 +10,14 @@ public class Q_1_String_to_lower_case {
         char arr[]=s1.toCharArray();
 
         for(int i=0;i<s1.length();i++){
-            if(arr[i]>=65 && arr[i]<=90){
+            if(arr[i]>='A' && arr[i]<='Z'){
                   arr[i]=(char) (arr[i]+32);
             }
           
         }   
 
         String s2=new String(arr);
-        System.out.println("New Array String : \n"+s2);
+        System.out.println("\n New Array String : \n"+s2);
         System.out.println(Arrays.toString(arr));
     }
     

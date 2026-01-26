@@ -1,7 +1,5 @@
 package dsa_advance.hashmaps;
-
 import java.util.HashMap;
-
 public class Q_12_Sub_array_with_0_Sum {
     public static void main(String args[]){
       int[] arr = {15, -2, 2, -8, 1, 7, 10, 23};

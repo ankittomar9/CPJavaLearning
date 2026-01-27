@@ -1,12 +1,9 @@
 package BasicDSAImplemetations.Strings.Basics;
-
 import java.util.Arrays;
-
 public class Q_1_String_to_lower_case {
     public static void main(String args[]){
        String s1 = "ANKIT_is_LEARNING";
                 System.out.println("Original Array String : \n"+s1);
-
         char arr[]=s1.toCharArray();
 
         for(int i=0;i<s1.length();i++){
@@ -15,7 +12,6 @@ public class Q_1_String_to_lower_case {
             }
           
         }   
-
         String s2=new String(arr);
         System.out.println("\n New Array String : \n"+s2);
         System.out.println(Arrays.toString(arr));

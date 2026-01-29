@@ -5,7 +5,8 @@ public class Q_12_Count_the_Occurences {
        /*Find the number of occurrences of bob
         in string A consisting of lowercase English alphabets. */
         String s1="abobob"; 
-        if(s1==null ||s1.length()==0){ System.out.println("Empty String or null ");return;        }
+        if(s1==null ||s1.length()==0){ 
+            System.out.println("Empty String or null ");return;        }
       
         int count=0;
         int k=3;

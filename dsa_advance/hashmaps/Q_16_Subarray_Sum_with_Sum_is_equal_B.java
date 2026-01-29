@@ -1,5 +1,7 @@
 package dsa_advance.hashmaps;
 import java.util.HashMap;
+/*Problem Statement Given an array arr = {10, 2, -2, -20, 10} and a target sum B = -10.
+ Find if there exists a continuous subarray that adds up to B. */
 public class Q_16_Subarray_Sum_with_Sum_is_equal_B {
     public static void main(String args[]){
         int arr[]={10,2,-2,-20,10}; int B=-10;

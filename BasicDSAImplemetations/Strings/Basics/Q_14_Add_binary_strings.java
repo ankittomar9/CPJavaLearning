@@ -1,14 +1,11 @@
 package BasicDSAImplemetations.Strings.Basics;
-
 public class Q_14_Add_binary_strings {
     public static void main(String args[]){
             String A="110";String B="10";
 
         int i=A.length()-1; int j=B.length()-1;
         int carry=0;
-
         StringBuilder sb=new StringBuilder();
-
         while(i>=0 || j>=0 || carry==1){
             int sum=0;
             if(i>=0){

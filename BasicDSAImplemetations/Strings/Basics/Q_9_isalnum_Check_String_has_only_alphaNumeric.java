@@ -28,6 +28,5 @@ public class Q_9_isalnum_Check_String_has_only_alphaNumeric {
     
 }
 /*T:C is O(n)
-
 SC:O(n) becuase of charr array
  */

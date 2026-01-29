@@ -7,12 +7,12 @@ public class Q_15_pair_with_given_difference {
         int arr[]={5,10,3,2,50,80}; 
         int n=45; 
         HashSet<Integer> set=new HashSet<>();
-        boolean found =false;
-
+        boolean found =false;   
+            //|x - y| = N,  x - y = N    and x + y = N
         for(int i=0;i<arr.length;i++){
             int current=arr[i];
 
-                int num1=current-n;
+                int num1=current-n;// Here we have have two conditions 
                if(set.contains(num1)){
                 System.out.println("Pair Found: " + current + " and " + (current - n));
                 found = true;

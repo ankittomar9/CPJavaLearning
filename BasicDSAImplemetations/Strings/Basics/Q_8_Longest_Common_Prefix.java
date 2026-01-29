@@ -27,6 +27,5 @@ Example: the longest common prefix of "abcdefgh" and "abcefgh" is "abc".
                 }
             }
             System.out.println("Longest Common Prefix: " + prefix);
-        }
-    
+        }    
 }

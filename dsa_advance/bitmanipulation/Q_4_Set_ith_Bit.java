@@ -12,7 +12,7 @@ public class Q_4_Set_ith_Bit {
         // 9 -> Binary(8421) -> 1001 
         // 11 -> Binary(8421) -> 1011 which is  
 
-        System.out.println("Original numbner :"+n);
+        System.out.println("Original number :"+n);
         System.out.println("Modified number after setting :"+result);
     }
     

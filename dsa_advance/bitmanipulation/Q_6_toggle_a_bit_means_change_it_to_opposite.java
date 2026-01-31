@@ -18,7 +18,7 @@ public class Q_6_toggle_a_bit_means_change_it_to_opposite {
         int result=n^mask;
 
           System.out.println("Original number :"+n);
-        System.out.println("Modified number after Unsetting :"+result);
+        System.out.println("Modified number after Toggle :"+result);
     }
     
 }

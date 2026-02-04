@@ -1,13 +1,11 @@
 package dsa_advance.bitmanipulation;
-
 public class Q_12_Find_the_nth_magic_number {
     public static void main(String args[]){
-        /*A number is called "Magic" if it can be written as a sum of unique powers of 5.
+        /*A number is called "Magic" if it can be written
+         as a sum of unique powers of 5.
          The numbers are sorted in increasing order. */
         long n=3;
-        /*
-       // Binary 011 -> Expected: 5^1 + 5^2 = 5 + 25 = 30
-        */
+        /*       // Binary 011 -> Expected: 5^1 + 5^2 = 5 + 25 = 30        */
         long power=5;
         long answer=0;
 

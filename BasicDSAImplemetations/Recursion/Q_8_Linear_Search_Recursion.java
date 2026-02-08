@@ -4,6 +4,7 @@ public class Q_8_Linear_Search_Recursion {
     public static void main(String args[]){
         int arr[]={4,1,3,7,6};
         int target=7;
+            //In this we just check target exists or not no index return
         int  isCheck=LinearSearchHelper(arr,0,target);
         if(isCheck!=-1){
                System.out.println("Linear Search Target Exists At  "+isCheck);

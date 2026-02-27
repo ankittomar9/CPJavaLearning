@@ -9,7 +9,6 @@ public class Q_5_MergeSort {
         mergeSortFunc(arr,0,n-1);
         System.out.println("Sorted Array : \n");
         System.out.println(Arrays.toString(arr));
-
     }
     public static void mergeSortFunc(int arr[],int si,int ei){
             if(si>=ei){
@@ -42,13 +41,10 @@ public class Q_5_MergeSort {
         while(j<=ei){
               aux_arr[k++]=arr[j++];
         }
-
         //Copy back to original array
         for(k=0,i=si;k<aux_arr.length;k++,i++){
             arr[i]=aux_arr[k];
         }
-
-
     }
     
 }

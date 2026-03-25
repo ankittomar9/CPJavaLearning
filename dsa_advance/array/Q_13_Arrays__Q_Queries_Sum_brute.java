@@ -10,7 +10,7 @@ public class Q_13_Arrays__Q_Queries_Sum_brute {
           /* int[][] queries = {
             {1, 3},   // Query 1: sum from index 1 to 3
             {0, 4},   // Query 2: sum from index 0 to 4 (Edge case s=0)
-            {2, 2}    // Query 3: sum of just index 2
+            {2,  2}    // Query 3: sum of just index 2
         };
  */
         for(int i=start;i<=end;i++){

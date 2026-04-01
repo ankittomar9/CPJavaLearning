@@ -3,6 +3,7 @@ import java.util.Arrays;
 public class Q_34_Largest_In_Each_Row {
     public static void main(String args[]){
         int arr[][]={{1,2,3},{15,8,9},{-1,-5,-3}};
+        System.out.println("Original Array : \n"+Arrays.deepToString(arr));
         int result[]=findLargestInRows(arr);
    System.out.println("Largest in each row: " + Arrays.toString(result));
         

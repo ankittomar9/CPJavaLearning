@@ -1,5 +1,4 @@
 package dsa_advance.arrays_2d;
-
 public class Q_33_Wave_Print_Column {
     public static void main(String args[]){
         int arr[][]={{1,2,3,4},

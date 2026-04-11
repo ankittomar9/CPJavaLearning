@@ -19,7 +19,7 @@ public class Q_49_Max_Consecutive_Ones_II {
 
         }
 
-      System.out.println("Max Consecutive Ones(length)(flipping 1 zero): " + maxLength);
+      System.out.println("Max Consecutive Ones(length)(flipping 1 zero): \n" + maxLength);
 
     }
     

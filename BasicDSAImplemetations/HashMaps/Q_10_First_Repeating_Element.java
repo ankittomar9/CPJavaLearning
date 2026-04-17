@@ -31,7 +31,4 @@ public class Q_10_First_Repeating_Element {
                 }
                 if(!isFound){
                     System.out.println(" NO First Repeating Elements exists  ");
-                }
-        
-    }
-}
+                }        }    }

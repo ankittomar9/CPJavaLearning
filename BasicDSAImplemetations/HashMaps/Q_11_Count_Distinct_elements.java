@@ -13,7 +13,7 @@ public class Q_11_Count_Distinct_elements {
             System.out.println("Array is null or empty");return;
         }
         //Using HashMap 
-         System.out.println("Using HashMap");
+         System.out.println("----- Using HashMap -----");
         HashMap<Integer,Integer>map=new HashMap<>();
         for(int i=0;i<arr.length;i++){
             map.put(arr[i],map.getOrDefault(arr[i], 0)+1);
@@ -24,7 +24,7 @@ public class Q_11_Count_Distinct_elements {
 
         //Using HashSet
         //Question Is HashSet Ordered : Answer no  only treeSet is Ordered
-          System.out.println("Using HashSet");
+          System.out.println("----- Using HashSet -----");
             HashSet<Integer> set=new HashSet<>(); 
         for(int i=0;i<arr.length;i++){
             set.add(arr[i]);

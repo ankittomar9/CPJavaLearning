@@ -4,15 +4,13 @@ import java.util.HashMap;
 import java.util.List;
 public class Q_14_Distinct_Numbers_In_Window {
     public static void main(String args[]){
-        int arr[]={1,2,1,3,4,3}; int k=3;
-        // we need to count how many distinct elements are there in a window
-        // [1,1,1] = count 1 but [2 1 3 ] count is 3
+     int arr[]={1,2,1,3,4,3}; int k=3; // we need to count how many distinct elements are there
+     //  in a window // [1,1,1] = count 1 but [2 1 3 ] count is 3
         distinctNumberInWindow(arr,k);
     }
     public static void distinctNumberInWindow(int arr[],int k){
-    if(arr==null || arr.length==0 ){
-            System.out.println("Array is Empty or Null or window size is less than");return;}
-                            
+ if(arr==null || arr.length==0 ){System.out.println("Array is Empty or Null or window size is less than");return;}
+                      
             HashMap<Integer,Integer> map=new HashMap<>();
             //Step 1 : create a frequency HashMap
             for(int i=0;i<k;i++){

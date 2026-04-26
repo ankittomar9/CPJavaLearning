@@ -2,10 +2,7 @@ package BasicDSAImplemetations.LinkedList;
 
 public class Q_11_Linked_list_Cycle_detection {
     public static void main(String args[]){
-        /*LeetCode 141 (Easy/Medium)
-        We need to check if a Linked List has a loop (a cycle).
-        Normal List: 1 -> 2 -> 3 -> null (Ends)
-        Cyclic List: 1 -> 2 -> 3 -> 2... (Infinite loop)  */
+        
          Node head = new Node(10);
         head.next = new Node(20);
         head.next.next = new Node(30);

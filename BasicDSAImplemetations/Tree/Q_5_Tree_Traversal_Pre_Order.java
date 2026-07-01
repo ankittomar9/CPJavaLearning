@@ -25,7 +25,6 @@ public class Q_5_Tree_Traversal_Pre_Order {
 
     }
 
-    
     public static void preOrderTraversal(TreeNode root){
         if(root==null){
             return;
